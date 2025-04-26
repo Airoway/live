@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang=zh><head>
+<meta charset=UTF-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>直播源转换</title><style>
+
+body{background:#f3f4f6;min-height:100vh;display:flex;align-items:center;justify-content:center;margin:0;font-family:system-ui,-apple-system,sans-serif;padding:1rem}
+.container{background:#fff;padding:2rem;border-radius:.5rem;box-shadow:0 4px 6px -1px rgba(0,0,0,.1);width:100%;max-width:48rem}
+h1{font-size:1.5rem;font-weight:700;margin-bottom:1.5rem;text-align:center}h2{font-size:1.25rem;font-weight:600;margin-bottom:1rem}
+.space-y-4>*+*{margin-top:1rem}label{display:block;color:#374151;font-weight:600;margin-bottom:.5rem}
+input,textarea{width:100%;padding:.5rem;border:1px solid #d1d5db;border-radius:.25rem;box-sizing:border-box}
+textarea{min-height:8rem;resize:vertical}.button-row,.result-buttons{display:flex;gap:1rem;width:100%}
+.button-half,.result-button{flex:1}button{color:#fff;padding:.75rem;border-radius:.25rem;font-weight:500;cursor:pointer;transition:opacity .2s;border:none;width:100%}
+button:hover{opacity:.9}.bg-blue-500{background:#3b82f6}.bg-red-500{background:#ef4444}
+.bg-green-500{background:#10b981}.bg-purple-500{background:#8b5cf6}.hidden{display:none}
+.filename-input{margin-top:.5rem}.result-buttons{margin-top:1.25rem}
+@media (max-width:640px){.container{padding:1rem}button{padding:.6rem}}
+
+</style></head><body>
+<div class=container>
+<h1>直播源转换</h1>
+<div class=mb-8>
+<div class=space-y-4>
+<div><label for=file-upload>上传文件（M3U & TXT）</label><input type=file id=file-upload></div>
+<textarea id=input-content placeholder="粘贴 M3U & TXT 文件内容"></textarea>
+<div class=button-row>
+<button id=convert class="bg-blue-500 button-half">转换</button>
+<button id=clear-btn class="bg-red-500 button-half">清除</button>
+</div></div></div>
+<div class=mt-8>
+<h2>转换结果</h2>
+<textarea id=result-content readonly></textarea>
+<div id=download-options class=hidden>
+<div class=filename-input><label for=filename-input>文件名</label>
+<input type=text id=filename-input placeholder="直接下载&输入自定义文件名"></div></div>
+<div class=result-buttons>
+<button id=download-btn class="bg-green-500 result-button hidden">下载文件</button>
+<button id=copy-btn class="bg-purple-500 result-button hidden">复制结果</button>
+</div></div></div>
+<script>
+
+const $=id=>document.getElementById(id),_={},d={
+input:$('input-content'),result:$('result-content'),filename:$('filename-input'),
+downloadBtn:$('download-btn'),copyBtn:$('copy-btn'),downloadOptions:$('download-options'),fileUpload:$('file-upload')};
+_.isM3U=c=>c.trim().startsWith('#EXTM3U')||(c.includes('#EXTINF')&&c.includes('http'));
+_.addHyphenIfMissing=n=>n.match(/^[A-Za-z]+[0-9]+/)&&!n.includes('-')?n.replace(/([A-Za-z]+)([0-9]+)/,'$1-$2'):n;
+_.parseM3UToTXT=c=>{
+let g='直播',o={};c.split('\n').forEach((l,i,a)=>{
+if(l.trim().startsWith('#EXTINF:-1')){
+const m=l.match(/group-title="([^"]*)"/),n=l.match(/tvg-name="([^"]*)"/),u=a[i+1]?.trim(),t=l.match(/,(.*)$/)?.[1]?.trim();
+if(u?.startsWith('http')){g=m?m[1]:g;if(!o[g])o[g]=[];o[g].push(`${_.addHyphenIfMissing(t||n?.[1]||'')},${u}`)}}});
+return Object.entries(o).map(([k,v])=>`${k},#genre#\n${v.join('\n')}`).join('\n')};
+_.convertTXTToM3U=c=>{
+let g='直播',o=`#EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml"\n`;c.split('\n').forEach(l=>{
+const t=l.trim();if(t.endsWith(',#genre#'))g=t.replace(',#genre#','');
+else if(t&&!t.startsWith('#')&&t.includes(',')&&t.includes('http')){
+const i=t.lastIndexOf(','),n=t.slice(0,i),u=t.slice(i+1);
+if(u.startsWith('http'))o+=`#EXTINF:-1 tvg-name="${n.replace(/-/g,'')}" tvg-logo="https://live.fanmingming.cn/tv/${n.replace(/-/g,'')}.png" group-title="${g}",${_.addHyphenIfMissing(n)}\n${u}\n`}});
+return o};
+_.display=c=>{d.result.value=c;[d.downloadBtn,d.copyBtn,d.downloadOptions].forEach(e=>e.classList.remove('hidden'))};
+_.download=(c,f)=>{try{
+const b=new Blob([c],{type:_.isM3U(c)?'application/x-mpegurl;charset=utf-8':'text/plain;charset=utf-8'}),
+a=Object.assign(document.createElement('a'),{href:URL.createObjectURL(b),download:f||(_.isM3U(c)?'live.m3u':'live.txt'),style:'display:none'});
+document.body.appendChild(a).click();setTimeout(()=>{document.body.removeChild(a)},100)}catch(e){alert('下载失败，请检查浏览器设置')}};
+_.copy=()=>{
+d.result.select();
+document.execCommand('copy');
+const selection=window.getSelection();
+selection.removeAllRanges();
+d.copyBtn.textContent='已复制!';
+setTimeout(()=>{d.copyBtn.textContent='复制结果'},2000);
+};
+_.clear=()=>{d.input.value=d.result.value=d.filename.value='';[d.downloadBtn,d.copyBtn,d.downloadOptions].forEach(e=>e.classList.add('hidden'));d.fileUpload.value=''};
+d.fileUpload.addEventListener('change',function(e){
+const file=e.target.files[0];
+if(file){
+const reader=new FileReader();
+reader.onload=function(e){d.input.value=e.target.result};
+reader.readAsText(file);
+}
+});
+document.addEventListener('click',e=>{
+if(e.target.id==='convert'){const c=d.input.value.trim();c?_.display(_.isM3U(c)?_.parseM3UToTXT(c):_.convertTXTToM3U(c)):alert("请先粘贴内容")}
+else if(e.target.id==='clear-btn')_.clear();
+else if(e.target.id==='download-btn'){const f=d.filename.value.trim(),c=d.result.value;_.download(c,f?`${f}.${_.isM3U(c)?'m3u':'txt'}`:'')}
+else if(e.target.id==='copy-btn')_.copy()});
+
+</script></body></html>
