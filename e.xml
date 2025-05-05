@@ -12879,10 +12879,10 @@
 	<channel id="东方卫视">
 		<display-name lang="zh">东方卫视</display-name>
 	</channel>
-	<programme channel="东方卫视" start="20250505000000 +0800" stop="20250505001000 +0800">
+	<programme channel="东方卫视" start="20250505000000 +0800" stop="20250505001100 +0800">
 		<title lang="zh">＜蛮好的人生＞特辑</title>
 	</programme>
-	<programme channel="东方卫视" start="20250505001000 +0800" stop="20250505001500 +0800">
+	<programme channel="东方卫视" start="20250505001100 +0800" stop="20250505001500 +0800">
 		<title lang="zh">＜蛮好的人生＞明日精彩看点</title>
 	</programme>
 	<programme channel="东方卫视" start="20250505001500 +0800" stop="20250505005700 +0800">
@@ -12972,10 +12972,10 @@
 	<programme channel="东方卫视" start="20250505141700 +0800" stop="20250505145800 +0800">
 		<title lang="zh">乌云之上（2）</title>
 	</programme>
-	<programme channel="东方卫视" start="20250505145800 +0800" stop="20250505153700 +0800">
+	<programme channel="东方卫视" start="20250505145800 +0800" stop="20250505153800 +0800">
 		<title lang="zh">乌云之上（3）</title>
 	</programme>
-	<programme channel="东方卫视" start="20250505153700 +0800" stop="20250505161700 +0800">
+	<programme channel="东方卫视" start="20250505153800 +0800" stop="20250505161700 +0800">
 		<title lang="zh">乌云之上（4）</title>
 	</programme>
 	<programme channel="东方卫视" start="20250505161700 +0800" stop="20250505165700 +0800">
@@ -79212,6 +79212,9 @@
 	<programme channel="newtv超级电视剧" start="20250505174600 +0800" stop="20250505183200 +0800">
 		<title lang="zh">29_承欢记</title>
 	</programme>
+	<programme channel="newtv超级电视剧" start="20250505183200 +0800" stop="20250505191700 +0800">
+		<title lang="zh">30_承欢记</title>
+	</programme>
 	<channel id="newtv精品大剧">
 		<display-name lang="zh">NEWTV精品大剧</display-name>
 	</channel>
@@ -80246,6 +80249,9 @@
 	</programme>
 	<programme channel="newtv金牌综艺" start="20250505174400 +0800" stop="20250505183800 +0800">
 		<title lang="zh">第三套人民币主景图大全尾三同-渠道（右）</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20250505183800 +0800" stop="20250505202200 +0800">
+		<title lang="zh">令人心动的offer第6季</title>
 	</programme>
 	<channel id="newtv精品体育">
 		<display-name lang="zh">NEWTV精品体育</display-name>
