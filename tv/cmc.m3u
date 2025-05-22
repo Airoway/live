@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv.iomo.run.place/tv/e.xml"
+#EXTM3U x-tvg-url="https://v.iomo.run.place/tv/e.xml"
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://live.fanmingming.cn/tv/CCTV1.png" group-title="央视",CCTV-1
 https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream05/streamPlaylist.m3u8
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://live.fanmingming.cn/tv/CCTV1.png" group-title="央视",CCTV-1
