@@ -57,9 +57,9 @@ CGTN-英语,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://yangshipi
 黑龙江卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://yangshipin.cn/tv/home?pid=600002498
 内蒙古卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://yangshipin.cn/tv/home?pid=600190401
 陕西,#genre#
-新闻资讯,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://live.snrtv.com/1
-都市青春,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://live.snrtv.com/2
-银龄频道,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://live.snrtv.com/3
-秦腔频道,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://live.snrtv.com/5
-体育休闲,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://live.snrtv.com/7
-农林卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://live.snrtv.com/nl
+新闻资讯,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=http://live.snrtv.com/1
+都市青春,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=http://live.snrtv.com/2
+银龄频道,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=http://live.snrtv.com/3
+秦腔频道,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=http://live.snrtv.com/5
+体育休闲,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=http://live.snrtv.com/7
+农林卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=http://live.snrtv.com/nl
