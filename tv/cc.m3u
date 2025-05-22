@@ -1,117 +1,65 @@
-#EXTM3U x-tvg-url="http://v.iomo.run.place/e.xml"
-#EXTINF:-1 tvg-name="CCTV1" group-title="央视",CCTV-1
-udp://239.112.205.59:5140
-#EXTINF:-1 tvg-name="CCTV2" group-title="央视",CCTV-2
-udp://239.112.205.78:5140
-#EXTINF:-1 tvg-name="CCTV3" group-title="央视",CCTV-3
-udp://239.112.205.221:5140
-#EXTINF:-1 tvg-name="CCTV4" group-title="央视",CCTV-4
-udp://239.112.205.202:5140
-#EXTINF:-1 tvg-name="CCTV5" group-title="央视",CCTV-5
-udp://239.112.205.222:5140
-#EXTINF:-1 tvg-name="CCTV5+" group-title="央视",CCTV-5+
-udp://239.111.205.13:5140
-#EXTINF:-1 tvg-name="CCTV6" group-title="央视",CCTV-6
-udp://239.112.205.223:5140
-#EXTINF:-1 tvg-name="CCTV7" group-title="央视",CCTV-7
-udp://239.112.205.83:5140
-#EXTINF:-1 tvg-name="CCTV8" group-title="央视",CCTV-8
-udp://239.112.205.224:5140
-#EXTINF:-1 tvg-name="CCTV9" group-title="央视",CCTV-9
-udp://239.112.205.85:5140
-#EXTINF:-1 tvg-name="CCTV10" group-title="央视",CCTV-10
-udp://239.112.205.86:5140
-#EXTINF:-1 tvg-name="CCTV11" group-title="央视",CCTV-11
-udp://239.112.205.213:5140
-#EXTINF:-1 tvg-name="CCTV12" group-title="央视",CCTV-12
-udp://239.112.205.88:5140
-#EXTINF:-1 tvg-name="CCTV13" group-title="央视",CCTV-13
-udp://239.111.205.53:5140
-#EXTINF:-1 tvg-name="CCTV14" group-title="央视",CCTV-14
-udp://239.112.205.91:5140
-#EXTINF:-1 tvg-name="CCTV15" group-title="央视",CCTV-15
-udp://239.112.205.214:5140
-#EXTINF:-1 tvg-name="CCTV16" group-title="央视",CCTV-16
-udp://239.111.205.134:5140
-#EXTINF:-1 tvg-name="CCTV17" group-title="央视",CCTV-17
-udp://239.112.205.211:5140
-#EXTINF:-1 tvg-name="凤凰中文" group-title="卫视",凤凰中文
-udp://239.110.205.103:7864
-#EXTINF:-1 tvg-name="凤凰资讯" group-title="卫视",凤凰资讯
-udp://239.110.205.114:7820
-#EXTINF:-1 tvg-name="北京卫视" group-title="卫视",北京卫视
-udp://239.112.205.65:5140
-#EXTINF:-1 tvg-name="天津卫视" group-title="卫视",天津卫视
-udp://239.112.205.74:5140
-#EXTINF:-1 tvg-name="东方卫视" group-title="卫视",东方卫视
-udp://239.112.205.61:5140
-#EXTINF:-1 tvg-name="浙江卫视" group-title="卫视",浙江卫视
-udp://239.112.205.64:5140
-#EXTINF:-1 tvg-name="湖南卫视" group-title="卫视",湖南卫视
-udp://239.112.205.62:5140
-#EXTINF:-1 tvg-name="江苏卫视" group-title="卫视",江苏卫视
-udp://239.112.205.63:5140
-#EXTINF:-1 tvg-name="江西卫视" group-title="卫视",江西卫视
-udp://239.111.205.16:5140
-#EXTINF:-1 tvg-name="广东卫视" group-title="卫视",广东卫视
-udp://239.112.205.66:5140
-#EXTINF:-1 tvg-name="深圳卫视" group-title="卫视",深圳卫视
-udp://239.112.205.67:5140
-#EXTINF:-1 tvg-name="广西卫视" group-title="卫视",广西卫视
-udp://239.112.205.51:5140
-#EXTINF:-1 tvg-name="东南卫视" group-title="卫视",东南卫视
-udp://239.112.205.182:5140
-#EXTINF:-1 tvg-name="海南卫视" group-title="卫视",海南卫视
-udp://239.112.205.50:5140
-#EXTINF:-1 tvg-name="河北卫视" group-title="卫视",河北卫视
-udp://239.112.205.200:5140
-#EXTINF:-1 tvg-name="河南卫视" group-title="卫视",河南卫视
-udp://239.112.205.180:5140
-#EXTINF:-1 tvg-name="山东卫视" group-title="卫视",山东卫视
-udp://239.112.205.70:5140
-#EXTINF:-1 tvg-name="山西卫视" group-title="卫视",山西卫视
-udp://239.112.205.46:5140
-#EXTINF:-1 tvg-name="安徽卫视" group-title="卫视",安徽卫视
-udp://239.112.205.72:5140
-#EXTINF:-1 tvg-name="重庆卫视" group-title="卫视",重庆卫视
-udp://239.112.205.179:5140
-#EXTINF:-1 tvg-name="湖北卫视" group-title="卫视",湖北卫视
-udp://239.112.205.69:5140
-#EXTINF:-1 tvg-name="云南卫视" group-title="卫视",云南卫视
-udp://239.112.205.58:5140
-#EXTINF:-1 tvg-name="贵州卫视" group-title="卫视",贵州卫视
-udp://239.112.205.178:5140
-#EXTINF:-1 tvg-name="四川卫视" group-title="卫视",四川卫视
-udp://239.112.205.184:5140
-#EXTINF:-1 tvg-name="陕西卫视" group-title="卫视",陕西卫视
-udp://239.111.205.35:5140
-#EXTINF:-1 tvg-name="甘肃卫视" group-title="卫视",甘肃卫视
-udp://239.112.205.48:5140
-#EXTINF:-1 tvg-name="青海卫视" group-title="卫视",青海卫视
-udp://239.112.205.53:5140
-#EXTINF:-1 tvg-name="宁夏卫视" group-title="卫视",宁夏卫视
-udp://239.112.205.49:5140
-#EXTINF:-1 tvg-name="西藏卫视" group-title="卫视",西藏卫视
-udp://239.112.205.54:5140
-#EXTINF:-1 tvg-name="新疆卫视" group-title="卫视",新疆卫视
-udp://239.112.205.56:5140
-#EXTINF:-1 tvg-name="吉林卫视" group-title="卫视",吉林卫视
-udp://239.112.205.183:5140
-#EXTINF:-1 tvg-name="辽宁卫视" group-title="卫视",辽宁卫视
-udp://239.112.205.73:5140
-#EXTINF:-1 tvg-name="黑龙江卫视" group-title="卫视",黑龙江卫视
-udp://239.112.205.68:5140
-#EXTINF:-1 tvg-name="内蒙古卫视" group-title="卫视",内蒙古卫视
-udp://239.112.205.55:5140
-#EXTINF:-1 tvg-name="陕西新闻资讯" group-title="陕西",新闻资讯
-udp://239.111.205.28:5140
-#EXTINF:-1 tvg-name="陕西都市青春" group-title="陕西",都市青春
-udp://239.111.205.42:5140
-#EXTINF:-1 tvg-name="陕西银龄" group-title="陕西",银龄频道
-udp://239.111.205.98:5140
-#EXTINF:-1 tvg-name="陕西秦腔" group-title="陕西",秦腔频道
-udp://239.111.205.100:5140
-#EXTINF:-1 tvg-name="陕西体育休闲" group-title="陕西",体育休闲
-udp://239.111.205.36:5140
-#EXTINF:-1 tvg-name="陕西八套" group-title="陕西",西部电影
-udp://239.111.205.102:5140
+央视,#genre#
+CCTV-1,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600001859
+CCTV-2,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600001800
+CCTV-3,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://tv.cctv.com/live/cctv3/
+CCTV-4,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600001814
+CCTV-5,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600001818
+CCTV-5+,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600001817
+CCTV-6,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600108442
+CCTV-7,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600004092
+CCTV-8,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600001803
+CCTV-9,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600004078
+CCTV-10,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600001805
+CCTV-11,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600001806
+CCTV-12,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600001807
+CCTV-13,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600001811
+CCTV-14,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600001809
+CCTV-15,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600001815
+CCTV-16,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600098637
+CCTV-17,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600001810
+CCTV-4K,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600002264
+CCTV-8K,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600156816
+风云剧场,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600099658
+第一剧场,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600099655
+怀旧剧场,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600099620
+CGTN-英语,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600014550
+卫视,#genre#
+北京卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600002309
+天津卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600152137
+东方卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600002483
+浙江卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600002520
+湖南卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600002475
+江苏卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600002521
+江西卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600002503
+广东卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600002485
+深圳卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600002481
+广西卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600002509
+东南卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600002484
+海南卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600002506
+河北卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600002493
+河南卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600002525
+山东卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600002513
+山西卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600190407
+安徽卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600002532
+重庆卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600002531
+湖北卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600002508
+云南卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600190402
+贵州卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600002490
+四川卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600002516
+陕西卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600190400
+甘肃卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600190408
+青海卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600190406
+宁夏卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600190737
+西藏卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600190403
+新疆卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://www.yangshipin.cn/tv/home?pid=600152138
+吉林卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600190405
+辽宁卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600002505
+黑龙江卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600002498
+内蒙古卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=httpss://yangshipin.cn/tv/home?pid=600190401
+陕西,#genre#
+新闻资讯,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://live.snrtv.com/1
+都市青春,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://live.snrtv.com/2
+银龄频道,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://live.snrtv.com/3
+秦腔频道,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://live.snrtv.com/5
+体育休闲,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://live.snrtv.com/7
+农林卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://live.snrtv.com/nl
