@@ -51,7 +51,7 @@ CGTN-英语,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://yangshipi
 青海卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://yangshipin.cn/tv/home?pid=600190406
 宁夏卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://yangshipin.cn/tv/home?pid=600190737
 西藏卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://yangshipin.cn/tv/home?pid=600190403
-新疆卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://www.yangshipin.cn/tv/home?pid=600152138
+新疆卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://yangshipin.cn/tv/home?pid=600152138
 吉林卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://yangshipin.cn/tv/home?pid=600190405
 辽宁卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://yangshipin.cn/tv/home?pid=600002505
 黑龙江卫视,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://yangshipin.cn/tv/home?pid=600002498
