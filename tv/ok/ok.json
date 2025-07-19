@@ -1,5 +1,5 @@
 {
-"spider":"http://v.iomo.run.place/tv/ok/v.jar",
+"spider":"https://d.kstore.dev/download/11050/v.jar",
 "wallpaper":"http://127.0.0.1:9978/proxy?do=wall","logo":"http://v.iomo.run.place/tv/ok/logo.png",
 "sites":[
 {"key":"豆瓣","name":"爱无┃止境","type":3,"api":"csp_DoubanGuard","searchable":0,"changeable":1},
