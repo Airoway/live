@@ -123,3 +123,7 @@ http://shanxiunicom.livestr.wasu.tv/5B63686E5D575330303030303031367C313030323638
 http://shanxiunicom.livestr.wasu.tv/5B63686E5D575330303030303031367C3130303037317C7C7C7C687474707C74735B2F63686E5D5B74735D315B2F74735D5B7375735D315B2F7375735DVSDNSOOONERCOM00
 #EXTINF:-1 tvg-name="洛川融媒" group-title="陕西",洛川融媒
 http://zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221225908/index.m3u8
+#EXTINF:-1 tvg-name="西安钟楼" group-title="陕西",西安钟楼
+https://gcalic.v.myalicdn.com/gc/blg03_1/index.m3u8
+#EXTINF:-1 tvg-name="西安大雁塔" group-title="陕西",西安大雁塔
+https://gcalic.v.myalicdn.com/gc/hkylxs01_1/index.m3u8
