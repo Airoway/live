@@ -155,20 +155,20 @@ http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226374/index.m3u8
 http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226375/index.m3u8
 #EXTINF:-1 tvg-name="洛川融媒" group-title="陕西",洛川融媒
 http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226996/index.m3u8
+#EXTINF:-1 tvg-name="西安钟楼" group-title="陕西",西安钟楼
+https://gcalic.v.myalicdn.com/gc/blg03_1/index.m3u8
+#EXTINF:-1 tvg-name="西安大雁塔" group-title="陕西",西安大雁塔
+https://gcalic.v.myalicdn.com/gc/hkylxs01_1/index.m3u8
 #EXTINF:-1 tvg-name="CHC家庭影院" group-title="数字",家庭影院
 http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226462/index.m3u8
 #EXTINF:-1 tvg-name="CHC影迷电影" group-title="数字",影迷电影
 http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226463/index.m3u8
 #EXTINF:-1 tvg-name="CHC动作电影" group-title="数字",动作电影
-http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8
-#EXTINF:-1 tvg-name="都市剧场" group-title="数字",都市剧场
 http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226581/index.m3u8
-#EXTINF:-1 tvg-name="欢笑剧场" group-title="数字",欢笑剧场
-http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226582/index.m3u8
+#EXTINF:-1 tvg-name="快乐垂钓" group-title="数字",快乐垂钓
+http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226805/index.m3u8
 #EXTINF:-1 tvg-name="金鹰纪实" group-title="数字",金鹰纪实
 http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226351/index.m3u8
-#EXTINF:-1 tvg-name="乐游频道" group-title="数字",乐游频道
-http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226580/index.m3u8
 #EXTINF:-1 tvg-name="金鹰卡通" group-title="数字",金鹰卡通
 http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225744/index.m3u8
 #EXTINF:-1 tvg-name="卡酷少儿" group-title="数字",卡酷卡通
