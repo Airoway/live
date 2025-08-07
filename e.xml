@@ -51387,6 +51387,9 @@
 	<programme channel="newtv精品大剧" start="20250808001900 +0800" stop="20250808010100 +0800">
 		<title lang="zh">19_老酒馆</title>
 	</programme>
+	<programme channel="newtv精品大剧" start="20250808010100 +0800" stop="20250808021200 +0800">
+		<title lang="zh">20_老酒馆</title>
+	</programme>
 	<channel id="newtv精品纪录">
 		<display-name lang="zh">NEWTV精品纪录</display-name>
 	</channel>
