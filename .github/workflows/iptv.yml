@@ -15,77 +15,39 @@ jobs:
     - name: Create tv directory
       run: mkdir -p tv
       
-    - name: Process M3U file
+    - name: Download and process M3U
       run: |
-        function fetch_with_retry() {
-          local url=$1
-          local max_retries=3
-          local retry_count=0
-          local timeout=30
-          
-          while [ $retry_count -lt $max_retries ]; do
-            if content=$(curl -s --connect-timeout $timeout "$url"); then
-              echo "$content"
-              return 0
-            fi
-            retry_count=$((retry_count+1))
-            sleep 5
-          done
-          return 1
-        }
-
         KEEP_GROUPS=("央视" "卫视" "地方" "影视" "主力-央视" "主力-卫视" "主力-其他")
         
-        TEMP_FILE=$(mktemp)
-        echo "#EXTM3U x-tvg-url=\"https://11.112114.xyz/pp.xml\"" > $TEMP_FILE
+        curl -s "https://11.112114.xyz/pp.xml" -o source.m3u
         
-        if ! content=$(fetch_with_retry "https://11.112114.xyz/pp.xml"); then
-          echo "Failed to fetch M3U file after retries"
-          exit 1
-        fi
+        echo "#EXTM3U x-tvg-url=\"https://11.112114.xyz/pp.xml\"" > tv/iptv.m3u
         
-        echo "$content" | while IFS= read -r line; do
+        while IFS= read -r line; do
           if [[ "$line" == *"group-title=\""* ]]; then
             group=$(echo "$line" | grep -o 'group-title="[^"]*"' | cut -d'"' -f2)
             
-            keep=false
             for g in "${KEEP_GROUPS[@]}"; do
               if [[ "$group" == "$g" ]]; then
-                keep=true
+                new_group=${group//主力-/}
+                echo "$line" | sed 's/tvg-logo="[^"]*\.jpg"//g' | sed "s/group-title=\"$group\"/group-title=\"$new_group\"/" >> tv/iptv.m3u
                 break
               fi
             done
-            
-            if $keep; then
-              new_group=$(echo "$group" | sed 's/主力-//')
-              cleaned_line=$(echo "$line" | sed 's/tvg-logo="[^"]*\.jpg"//g')
-              echo "$cleaned_line" | sed "s/group-title=\"$group\"/group-title=\"$new_group\"/" >> $TEMP_FILE
-            fi
           elif [[ "$line" == "#EXTINF"* ]]; then
-            echo "$line" | sed 's/tvg-logo="[^"]*\.jpg"//g' >> $TEMP_FILE
+            echo "$line" | sed 's/tvg-logo="[^"]*\.jpg"//g' >> tv/iptv.m3u
           elif [[ "$line" == http* ]]; then
-            echo "$line" >> $TEMP_FILE
+            echo "$line" >> tv/iptv.m3u
           fi
-        done
+        done < source.m3u
         
-        if [ $(wc -l < $TEMP_FILE) -lt 10 ]; then
-          echo "Error: Output file seems incomplete"
-          exit 1
-        fi
-        
-        channel_count=$(grep -c "^#EXTINF" $TEMP_FILE)
-        if [ $channel_count -lt 50 ]; then
-          echo "Error: Too few channels ($channel_count)"
-          exit 1
-        fi
-        
-        if ! cmp -s $TEMP_FILE tv/iptv.m3u 2>/dev/null; then
-          mv $TEMP_FILE tv/iptv.m3u
+        if [ -s tv/iptv.m3u ]; then
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add tv/iptv.m3u
-          git commit -m "Auto-update playlist [skip ci]"
+          git commit -m "Update IPTV playlist"
           git push
         else
-          rm $TEMP_FILE
+          echo "Error: Generated file is empty"
+          exit 1
         fi
