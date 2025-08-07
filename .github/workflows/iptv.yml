@@ -1,0 +1,54 @@
+name: iptv
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync-m3u:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+      
+    - name: Create tv directory
+      run: mkdir -p tv
+      
+    - name: Process M3U file
+      run: |
+        KEEP_GROUPS=("央视" "卫视" "地方" "影视" "主力-央视" "主力-卫视" "主力-其他")
+        
+        echo "#EXTM3U x-tvg-url=\"https://11.112114.xyz/pp.xml\"" > tv/iptv.m3u
+        
+        curl -s "https://11.112114.xyz/pp.xml" | while IFS= read -r line; do
+          if [[ "$line" == *"group-title=\""* ]]; then
+            group=$(echo "$line" | grep -o 'group-title="[^"]*"' | cut -d'"' -f2)
+            
+            keep=false
+            for g in "${KEEP_GROUPS[@]}"; do
+              if [[ "$group" == "$g" ]]; then
+                keep=true
+                break
+              fi
+            done
+            
+            if $keep; then
+              new_group=$(echo "$group" | sed 's/主力-//')
+              cleaned_line=$(echo "$line" | sed 's/tvg-logo="[^"]*\.jpg"//g')
+              echo "$cleaned_line" | sed "s/group-title=\"$group\"/group-title=\"$new_group\"/" >> tv/iptv.m3u
+            fi
+          elif [[ "$line" == "#EXTINF"* ]]; then
+            echo "$line" | sed 's/tvg-logo="[^"]*\.jpg"//g' >> tv/iptv.m3u
+          elif [[ "$line" == http* ]]; then
+            echo "$line" >> tv/iptv.m3u
+          fi
+        done
+        
+        if ! cmp -s tv/iptv.m3u tv/iptv.m3u.bak 2>/dev/null; then
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add tv/iptv.m3u
+          git commit -m "Auto-update playlist [skip ci]"
+          git push
+        fi
