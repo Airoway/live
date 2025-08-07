@@ -40887,6 +40887,9 @@
 	<programme channel="纯享4K" start="20250808003400 +0800" stop="20250808010400 +0800">
 		<title lang="zh">记住乡愁4K第六季 第六集 会理古城——川南明珠</title>
 	</programme>
+	<programme channel="纯享4K" start="20250808010400 +0800" stop="20250808013400 +0800">
+		<title lang="zh">味道4K 下饭菜b7青神篇</title>
+	</programme>
 	<channel id="经典剧场">
 		<display-name lang="zh">经典剧场</display-name>
 	</channel>
@@ -51452,6 +51455,9 @@
 	</channel>
 	<programme channel="newtv军事评论" start="20250808002100 +0800" stop="20250808011400 +0800">
 		<title lang="zh">执笔为戈：晋察冀战地记者（上集）</title>
+	</programme>
+	<programme channel="newtv军事评论" start="20250808011400 +0800" stop="20250808020700 +0800">
+		<title lang="zh">执笔为戈：晋察冀战地记者（下集）</title>
 	</programme>
 	<channel id="newtv炫舞未来">
 		<display-name lang="zh">NEWTV炫舞未来</display-name>
