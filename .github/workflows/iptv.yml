@@ -39,6 +39,8 @@ jobs:
                 break
               fi
             done
+          elif [[ "$line" == *"CCTV"* ]]; then
+            echo "$line" | sed 's/CCTV\([0-9]\+\)综合/CCTV-\1/g' | sed 's/tvg-logo="[^"]*\.png"//g' | sed 's/tvg-logo="[^"]*\.jpg"//g' >> tv/iptv.m3u
           elif [[ "$line" == "#EXTINF"* && ! "$line" == *"http"* ]]; then
             echo "$line" | sed 's/tvg-logo="[^"]*\.png"//g' | sed 's/tvg-logo="[^"]*\.jpg"//g' >> tv/iptv.m3u
           elif [[ "$line" == http* ]]; then
