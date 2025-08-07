@@ -58,3 +58,27 @@ jobs:
         git add tv/iptv.m3u
         git commit -m "Auto-update playlist [skip ci]"
         git push
+                cleaned_line=$(echo "$line" | sed 's/tvg-logo="[^"]*\.png"//g' | sed 's/tvg-logo="[^"]*\.jpg"//g')
+                echo "$cleaned_line" | sed "s/group-title=\"$group\"/group-title=\"$new_group\"/" >> tv/iptv.m3u
+                break
+              fi
+            done
+          elif [[ "$line" == *"CCTV"* ]]; then
+            echo "$line" | sed 's/CCTV\([0-9]\+\)综合/CCTV-\1/g' | sed 's/tvg-logo="[^"]*\.png"//g' | sed 's/tvg-logo="[^"]*\.jpg"//g' >> tv/iptv.m3u
+          elif [[ "$line" == "#EXTINF"* && ! "$line" == *"http"* ]]; then
+            echo "$line" | sed 's/tvg-logo="[^"]*\.png"//g' | sed 's/tvg-logo="[^"]*\.jpg"//g' >> tv/iptv.m3u
+          elif [[ "$line" == http* ]]; then
+            echo "$line" >> tv/iptv.m3u
+          fi
+        done < $TEMP_FILE
+        
+        rm -f $TEMP_FILE
+        
+        if [ $(grep -c "#EXTINF" tv/iptv.m3u) -lt 10 ]; then
+          echo "Error: Insufficient channels"
+          exit 1
+        fi
+        
+        git add tv/iptv.m3u
+        git commit -m "Auto-update playlist [skip ci]"
+        git push
