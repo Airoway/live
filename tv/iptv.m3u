@@ -1,4 +1,4 @@
-#EXTM3U
+##EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml"
 https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/sdr4kvideo/playlist.m3u8
 https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/hlg4kvideo/playlist.m3u8
 https://mursor.ottiptv.cc/bst/sjpd4k@15000000.m3u8
@@ -202,199 +202,199 @@ https://mursor.ottiptv.cc/migu/654102378.m3u8?migutoken=b0de759629b271e03c33f5f8
 https://mursor.ottiptv.cc/migu/923287154.m3u8?migutoken=aa040c205b3c347e82ee19b9c939ae54b825fa8dbe6dfa6a2428a3af3ed291708b3910f8ebce995839e5032b6220dacdfb6e462be3b724773633f208343539f7e89bd4ba05a5ed7edf1d669dbb
 https://mursor.ottiptv.cc/migu/923287211.m3u8?migutoken=17662bf71b384c4ec8bd11b31b8f50c558bfce2298d2e31905cc24f1efa9cfbfb0d583b298a418d77593990f4877ca3acf489acc6f30c8dae57f56ac05f79038dfa85a470c53676be4ee72ccf7
 https://mursor.ottiptv.cc/migu/923287339.m3u8?migutoken=6578431fa2607b7000f4ac2143ed8bc7fb3c44b7edd331103ad6bd6181e8eccfe60654aa2a279b4a35b0de018e13668176c0d6216f5a971a2153dc84ae46e7a591041d90310226b02b05fcdeba
-#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://11.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV-1HD-主力
+#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1"  group-title="央视",CCTV-1HD-主力
 https://mursor.ottiptv.cc/bst/cctv1hd@4000000.m3u8
-#EXTINF:-1,tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://11.112114.xyz/logo/CCTV2.png" group-title="央视",CCTV-2HD-主力
+#EXTINF:-1,tvg-id="CCTV2" tvg-name="CCTV2"  group-title="央视",CCTV-2HD-主力
 https://mursor.ottiptv.cc/bst/cctv2hd8m@8000000.m3u8
-#EXTINF:-1,tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://11.112114.xyz/logo/CCTV3.png" group-title="央视",CCTV-3HD-主力
+#EXTINF:-1,tvg-id="CCTV3" tvg-name="CCTV3"  group-title="央视",CCTV-3HD-主力
 https://mursor.ottiptv.cc/bst/cctv3hd@4000000.m3u8
-#EXTINF:-1,tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://11.112114.xyz/logo/CCTV4.png" group-title="央视",CCTV-4HD-主力
+#EXTINF:-1,tvg-id="CCTV4" tvg-name="CCTV4"  group-title="央视",CCTV-4HD-主力
 https://mursor.ottiptv.cc/bst/cctv4hd4m@4000000.m3u8
-#EXTINF:-1,tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://11.112114.xyz/logo/CCTV5.png" group-title="央视",CCTV-5HD-主力
+#EXTINF:-1,tvg-id="CCTV5" tvg-name="CCTV5"  group-title="央视",CCTV-5HD-主力
 https://mursor.ottiptv.cc/bst/cctv5hd@4000000.m3u8
-#EXTINF:-1,tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://11.112114.xyz/logo/CCTV6.png" group-title="央视",CCTV-6HD-主力
+#EXTINF:-1,tvg-id="CCTV6" tvg-name="CCTV6"  group-title="央视",CCTV-6HD-主力
 https://mursor.ottiptv.cc/bst/cctv6hd@4000000.m3u8
-#EXTINF:-1,tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://11.112114.xyz/logo/CCTV7.png" group-title="央视",CCTV-7HD-主力
+#EXTINF:-1,tvg-id="CCTV7" tvg-name="CCTV7"  group-title="央视",CCTV-7HD-主力
 https://mursor.ottiptv.cc/bst/cctv7hd4m@4000000.m3u8
-#EXTINF:-1,tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://11.112114.xyz/logo/CCTV8.png" group-title="央视",CCTV-8HD-主力
+#EXTINF:-1,tvg-id="CCTV8" tvg-name="CCTV8"  group-title="央视",CCTV-8HD-主力
 https://mursor.ottiptv.cc/bst/cctv8hd@4000000.m3u8
-#EXTINF:-1,tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://11.112114.xyz/logo/CCTV9.png" group-title="央视",CCTV-9HD-主力
+#EXTINF:-1,tvg-id="CCTV9" tvg-name="CCTV9"  group-title="央视",CCTV-9HD-主力
 https://mursor.ottiptv.cc/bst/cctv9hd4mc@4000000.m3u8
-#EXTINF:-1,tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://11.112114.xyz/logo/CCTV10.png" group-title="央视",CCTV-10HD-主力
+#EXTINF:-1,tvg-id="CCTV10" tvg-name="CCTV10"  group-title="央视",CCTV-10HD-主力
 https://mursor.ottiptv.cc/bst/cctv10hd@4000000.m3u8
-#EXTINF:-1,tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://11.112114.xyz/logo/CCTV11.png" group-title="央视",CCTV-11HD-主力
+#EXTINF:-1,tvg-id="CCTV11" tvg-name="CCTV11"  group-title="央视",CCTV-11HD-主力
 https://mursor.ottiptv.cc/bst/cctv11hd4m@4000000.m3u8
-#EXTINF:-1,tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://11.112114.xyz/logo/CCTV12.png" group-title="央视",CCTV-12HD-主力
+#EXTINF:-1,tvg-id="CCTV12" tvg-name="CCTV12"  group-title="央视",CCTV-12HD-主力
 https://mursor.ottiptv.cc/bst/cctv12hd4m@4000000.m3u8
-#EXTINF:-1,tvg-id="BTV新闻" tvg-name="BTV新闻" tvg-logo="https://11.112114.xyz/logo/CCTV13.png" group-title="央视",CCTV-新闻HD-主力
+#EXTINF:-1,tvg-id="BTV新闻" tvg-name="BTV新闻"  group-title="央视",CCTV-新闻HD-主力
 https://mursor.ottiptv.cc/bst/cctv13hd4m@4000000.m3u8
-#EXTINF:-1,tvg-id="IPTV少儿动画" tvg-name="IPTV少儿动画" tvg-logo="https://11.112114.xyz/logo/CCTV14.png" group-title="央视",CCTV-少儿HD-主力
+#EXTINF:-1,tvg-id="IPTV少儿动画" tvg-name="IPTV少儿动画"  group-title="央视",CCTV-少儿HD-主力
 https://mursor.ottiptv.cc/bst/cctvsehd@4000000.m3u8
-#EXTINF:-1,tvg-id="动感音乐" tvg-name="动感音乐" tvg-logo="https://11.112114.xyz/logo/CCTV15.png" group-title="央视",CCTV-音乐HD-主力
+#EXTINF:-1,tvg-id="动感音乐" tvg-name="动感音乐"  group-title="央视",CCTV-音乐HD-主力
 https://mursor.ottiptv.cc/bst/cctvyyhd4m@4000000.m3u8
-#EXTINF:-1,tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://11.112114.xyz/logo/CCTV16.png" group-title="央视",CCTV-16HD-主力
+#EXTINF:-1,tvg-id="CCTV16" tvg-name="CCTV16"  group-title="央视",CCTV-16HD-主力
 https://mursor.ottiptv.cc/bst/cctv16hd4m@4000000.m3u8
-#EXTINF:-1,tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://11.112114.xyz/logo/CCTV17.png" group-title="央视",CCTV-17HD-主力
+#EXTINF:-1,tvg-id="CCTV17" tvg-name="CCTV17"  group-title="央视",CCTV-17HD-主力
 https://mursor.ottiptv.cc/bst/cctv17hd4m@4000000.m3u8
-#EXTINF:-1,tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://11.112114.xyz/logo/CCTV5+.png" group-title="央视",CCTV-5+HD-主力
+#EXTINF:-1,tvg-id="CCTV5+" tvg-name="CCTV5+"  group-title="央视",CCTV-5+HD-主力
 https://mursor.ottiptv.cc/bst/cctv5phd@4000000.m3u8
-#EXTINF:-1,tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://11.112114.xyz/logo/CCTV3.png" group-title="央视",CCTV-3-主力
+#EXTINF:-1,tvg-id="CCTV3" tvg-name="CCTV3"  group-title="央视",CCTV-3-主力
 https://mursor.ottiptv.cc/bst/cctv3hdhai@4000000.m3u8
-#EXTINF:-1,tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://11.112114.xyz/logo/CCTV5.png" group-title="央视",CCTV-5-主力
+#EXTINF:-1,tvg-id="CCTV5" tvg-name="CCTV5"  group-title="央视",CCTV-5-主力
 https://mursor.ottiptv.cc/bst/cctv5hdhai@4000000.m3u8
-#EXTINF:-1,tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://11.112114.xyz/logo/CCTV6.png" group-title="央视",CCTV-6-主力
+#EXTINF:-1,tvg-id="CCTV6" tvg-name="CCTV6"  group-title="央视",CCTV-6-主力
 https://mursor.ottiptv.cc/bst/cctv6@1300000.m3u8
-#EXTINF:-1,tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://11.112114.xyz/logo/CCTV8.png" group-title="央视",CCTV-8-主力
+#EXTINF:-1,tvg-id="CCTV8" tvg-name="CCTV8"  group-title="央视",CCTV-8-主力
 https://mursor.ottiptv.cc/bst/cctv8@1300000.m3u8
-#EXTINF:-1,tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://11.112114.xyz/logo/CGTN.png" group-title="央视",CGTN-主力
+#EXTINF:-1,tvg-id="CGTN" tvg-name="CGTN"  group-title="央视",CGTN-主力
 https://mursor.ottiptv.cc/bst/cctvnews@2500000.m3u8
-#EXTINF:-1,tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://11.112114.xyz/logo/东方卫视.png" group-title="卫视",东方卫视HD-主力
+#EXTINF:-1,tvg-id="东方卫视" tvg-name="东方卫视"  group-title="卫视",东方卫视HD-主力
 https://mursor.ottiptv.cc/bst/hddfws@4000000.m3u8
-#EXTINF:-1,tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://11.112114.xyz/logo/河北卫视.png" group-title="卫视",河北卫视HD-主力
+#EXTINF:-1,tvg-id="河北卫视" tvg-name="河北卫视"  group-title="卫视",河北卫视HD-主力
 https://mursor.ottiptv.cc/bst/hbwshd4m@4000000.m3u8
-#EXTINF:-1,tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://11.112114.xyz/logo/浙江卫视.png" group-title="卫视",浙江卫视HD-主力
+#EXTINF:-1,tvg-id="浙江卫视" tvg-name="浙江卫视"  group-title="卫视",浙江卫视HD-主力
 https://mursor.ottiptv.cc/bst/zjwshd@4000000.m3u8
-#EXTINF:-1,tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://11.112114.xyz/logo/北京卫视.png" group-title="卫视",北京卫视HD-主力
+#EXTINF:-1,tvg-id="北京卫视" tvg-name="北京卫视"  group-title="卫视",北京卫视HD-主力
 https://mursor.ottiptv.cc/bst/bjwshd@4000000.m3u8
-#EXTINF:-1,tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://11.112114.xyz/logo/江苏卫视.png" group-title="卫视",江苏卫视HD-主力
+#EXTINF:-1,tvg-id="江苏卫视" tvg-name="江苏卫视"  group-title="卫视",江苏卫视HD-主力
 https://mursor.ottiptv.cc/bst/jswshd@4000000.m3u8
-#EXTINF:-1,tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://11.112114.xyz/logo/天津卫视.png" group-title="卫视",天津卫视HD-主力
+#EXTINF:-1,tvg-id="天津卫视" tvg-name="天津卫视"  group-title="卫视",天津卫视HD-主力
 https://mursor.ottiptv.cc/bst/tjwshd@4000000.m3u8
-#EXTINF:-1,tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://11.112114.xyz/logo/湖南卫视.png" group-title="卫视",湖南卫视HD-主力
+#EXTINF:-1,tvg-id="湖南卫视" tvg-name="湖南卫视"  group-title="卫视",湖南卫视HD-主力
 https://mursor.ottiptv.cc/bst/hnwshd@4000000.m3u8
-#EXTINF:-1,tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://11.112114.xyz/logo/中国教育1台.png" group-title="其他",中国教育-1HD-主力
+#EXTINF:-1,tvg-id="中国教育1台" tvg-name="中国教育1台"  group-title="其他",中国教育-1HD-主力
 https://mursor.ottiptv.cc/bst/zgjy1ott@4000000.m3u8
-#EXTINF:-1,tvg-id="中国教育2台" tvg-name="中国教育2台" tvg-logo="https://11.112114.xyz/logo/中国教育2台.png" group-title="其他",中国教育-2-主力
+#EXTINF:-1,tvg-id="中国教育2台" tvg-name="中国教育2台"  group-title="其他",中国教育-2-主力
 https://mursor.ottiptv.cc/bst/cetv2@2500000.m3u8
-#EXTINF:-1,tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://11.112114.xyz/logo/中国教育4台.png" group-title="其他",中国教育-4HD-主力
+#EXTINF:-1,tvg-id="中国教育4台" tvg-name="中国教育4台"  group-title="其他",中国教育-4HD-主力
 https://mursor.ottiptv.cc/bst/cetv4@1300000.m3u8
-#EXTINF:-1,tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://11.112114.xyz/logo/山东卫视.png" group-title="卫视",山东卫视HD-主力
+#EXTINF:-1,tvg-id="山东卫视" tvg-name="山东卫视"  group-title="卫视",山东卫视HD-主力
 https://mursor.ottiptv.cc/bst/sdwshd@4000000.m3u8
-#EXTINF:-1,tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://11.112114.xyz/logo/东南卫视.png" group-title="卫视",东南卫视HD-主力
+#EXTINF:-1,tvg-id="东南卫视" tvg-name="东南卫视"  group-title="卫视",东南卫视HD-主力
 https://mursor.ottiptv.cc/bst/dnwshd@4000000.m3u8
-#EXTINF:-1,tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://11.112114.xyz/logo/安徽卫视.png" group-title="卫视",安徽卫视HD-主力
+#EXTINF:-1,tvg-id="安徽卫视" tvg-name="安徽卫视"  group-title="卫视",安徽卫视HD-主力
 https://mursor.ottiptv.cc/bst/ahwshd@4000000.m3u8
-#EXTINF:-1,tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://11.112114.xyz/logo/湖北卫视.png" group-title="卫视",湖北卫视HD-主力
+#EXTINF:-1,tvg-id="湖北卫视" tvg-name="湖北卫视"  group-title="卫视",湖北卫视HD-主力
 https://mursor.ottiptv.cc/bst/hbwshd@4000000.m3u8
-#EXTINF:-1,tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://11.112114.xyz/logo/甘肃卫视.png" group-title="卫视",甘肃卫视HD-主力
+#EXTINF:-1,tvg-id="甘肃卫视" tvg-name="甘肃卫视"  group-title="卫视",甘肃卫视HD-主力
 https://mursor.ottiptv.cc/bst/gswshd4m@4000000.m3u8
-#EXTINF:-1,tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://11.112114.xyz/logo/广东卫视.png" group-title="卫视",广东卫视HD-主力
+#EXTINF:-1,tvg-id="广东卫视" tvg-name="广东卫视"  group-title="卫视",广东卫视HD-主力
 https://mursor.ottiptv.cc/bst/gdwshd@4000000.m3u8
-#EXTINF:-1,tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://11.112114.xyz/logo/广西卫视.png" group-title="卫视",广西卫视HD-主力
+#EXTINF:-1,tvg-id="广西卫视" tvg-name="广西卫视"  group-title="卫视",广西卫视HD-主力
 https://mursor.ottiptv.cc/bst/gxwshd4m@4000000.m3u8
-#EXTINF:-1,tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://11.112114.xyz/logo/贵州卫视.png" group-title="卫视",贵州卫视HD-主力
+#EXTINF:-1,tvg-id="贵州卫视" tvg-name="贵州卫视"  group-title="卫视",贵州卫视HD-主力
 https://mursor.ottiptv.cc/bst/gzwshd4m@4000000.m3u8
-#EXTINF:-1,tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://11.112114.xyz/logo/重庆卫视.png" group-title="卫视",重庆卫视HD-主力
+#EXTINF:-1,tvg-id="重庆卫视" tvg-name="重庆卫视"  group-title="卫视",重庆卫视HD-主力
 https://mursor.ottiptv.cc/bst/cqwshd4m@4000000.m3u8
-#EXTINF:-1,tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://11.112114.xyz/logo/河南卫视.png" group-title="卫视",河南卫视HD-主力
+#EXTINF:-1,tvg-id="河南卫视" tvg-name="河南卫视"  group-title="卫视",河南卫视HD-主力
 https://mursor.ottiptv.cc/bst/henwshd4m@4000000.m3u8
-#EXTINF:-1,tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://11.112114.xyz/logo/黑龙江卫视.png" group-title="卫视",黑龙江卫视HD-主力
+#EXTINF:-1,tvg-id="黑龙江卫视" tvg-name="黑龙江卫视"  group-title="卫视",黑龙江卫视HD-主力
 https://mursor.ottiptv.cc/bst/hljwshd@4000000.m3u8
-#EXTINF:-1,tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://11.112114.xyz/logo/海南卫视.png" group-title="卫视",海南卫视HD-主力
+#EXTINF:-1,tvg-id="海南卫视" tvg-name="海南卫视"  group-title="卫视",海南卫视HD-主力
 https://mursor.ottiptv.cc/bst/hainwshd4m@4000000.m3u8
-#EXTINF:-1,tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://11.112114.xyz/logo/吉林卫视.png" group-title="卫视",吉林卫视HD-主力
+#EXTINF:-1,tvg-id="吉林卫视" tvg-name="吉林卫视"  group-title="卫视",吉林卫视HD-主力
 https://mursor.ottiptv.cc/bst/jlwshd4m@4000000.m3u8
-#EXTINF:-1,tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://11.112114.xyz/logo/江西卫视.png" group-title="卫视",江西卫视HD-主力
+#EXTINF:-1,tvg-id="江西卫视" tvg-name="江西卫视"  group-title="卫视",江西卫视HD-主力
 https://mursor.ottiptv.cc/bst/jxwshd@4000000.m3u8
-#EXTINF:-1,tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://11.112114.xyz/logo/哈哈炫动.png" group-title="其他",哈哈炫动HD-主力
+#EXTINF:-1,tvg-id="哈哈炫动" tvg-name="哈哈炫动"  group-title="其他",哈哈炫动HD-主力
 https://mursor.ottiptv.cc/bst/hhxdhd@4000000.m3u8
-#EXTINF:-1,tvg-id="金鹰纪实" tvg-name="金鹰纪实" tvg-logo="https://11.112114.xyz/logo/金鹰纪实.png" group-title="其他",金鹰纪实HD-主力
+#EXTINF:-1,tvg-id="金鹰纪实" tvg-name="金鹰纪实"  group-title="其他",金鹰纪实HD-主力
 https://mursor.ottiptv.cc/bst/jyjs8m@8000000.m3u8
-#EXTINF:-1,tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://11.112114.xyz/logo/金鹰卡通.png" group-title="其他",金鹰卡通-主力
+#EXTINF:-1,tvg-id="金鹰卡通" tvg-name="金鹰卡通"  group-title="其他",金鹰卡通-主力
 https://mursor.ottiptv.cc/bst/jykt@1300000.m3u8
-#EXTINF:-1,tvg-id="嘉佳卡通" tvg-name="嘉佳卡通" tvg-logo="https://11.112114.xyz/logo/嘉佳卡通.png" group-title="其他",嘉佳卡通-主力
+#EXTINF:-1,tvg-id="嘉佳卡通" tvg-name="嘉佳卡通"  group-title="其他",嘉佳卡通-主力
 https://mursor.ottiptv.cc/bst/jjkt@1300000.m3u8
-#EXTINF:-1,tvg-id="卡酷卡通" tvg-name="卡酷卡通" tvg-logo="https://11.112114.xyz/logo/卡酷卡通.png" group-title="其他",卡酷卡通-主力
+#EXTINF:-1,tvg-id="卡酷卡通" tvg-name="卡酷卡通"  group-title="其他",卡酷卡通-主力
 https://mursor.ottiptv.cc/bst/kkkt@1300000.m3u8
-#EXTINF:-1,tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo="https://11.112114.xyz/logo/卡酷少儿.png" group-title="其他",卡酷少儿HD-主力
+#EXTINF:-1,tvg-id="卡酷少儿" tvg-name="卡酷少儿"  group-title="其他",卡酷少儿HD-主力
 https://mursor.ottiptv.cc/bst/kkkt2d5m@2500000.m3u8
-#EXTINF:-1,tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://11.112114.xyz/logo/辽宁卫视.png" group-title="卫视",辽宁卫视HD-主力
+#EXTINF:-1,tvg-id="辽宁卫视" tvg-name="辽宁卫视"  group-title="卫视",辽宁卫视HD-主力
 https://mursor.ottiptv.cc/bst/lnwshd@4000000.m3u8
-#EXTINF:-1,tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://11.112114.xyz/logo/深圳卫视.png" group-title="卫视",深圳卫视HD-主力
+#EXTINF:-1,tvg-id="深圳卫视" tvg-name="深圳卫视"  group-title="卫视",深圳卫视HD-主力
 https://mursor.ottiptv.cc/bst/szwshd@4000000.m3u8
-#EXTINF:-1,tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://11.112114.xyz/logo/云南卫视.png" group-title="卫视",云南卫视HD-主力
+#EXTINF:-1,tvg-id="云南卫视" tvg-name="云南卫视"  group-title="卫视",云南卫视HD-主力
 https://mursor.ottiptv.cc/bst/ynwshd4m@4000000.m3u8
-#EXTINF:-1,tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://11.112114.xyz/logo/四川卫视.png" group-title="卫视",四川卫视HD-主力
+#EXTINF:-1,tvg-id="四川卫视" tvg-name="四川卫视"  group-title="卫视",四川卫视HD-主力
 https://mursor.ottiptv.cc/bst/scwshd4m@4000000.m3u8
-#EXTINF:-1,tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://11.112114.xyz/logo/山西卫视.png" group-title="卫视",山西卫视-主力
+#EXTINF:-1,tvg-id="山西卫视" tvg-name="山西卫视"  group-title="卫视",山西卫视-主力
 https://mursor.ottiptv.cc/bst/shanxiws@1300000.m3u8
-#EXTINF:-1,tvg-id="陕西卫视" tvg-name="陕西卫视" tvg-logo="https://11.112114.xyz/logo/陕西卫视.png" group-title="卫视",陕西卫视-主力
+#EXTINF:-1,tvg-id="陕西卫视" tvg-name="陕西卫视"  group-title="卫视",陕西卫视-主力
 https://mursor.ottiptv.cc/bst/sxws@1300000.m3u8
-#EXTINF:-1,tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://11.112114.xyz/logo/新疆卫视.png" group-title="卫视",新疆卫视-主力
+#EXTINF:-1,tvg-id="新疆卫视" tvg-name="新疆卫视"  group-title="卫视",新疆卫视-主力
 https://mursor.ottiptv.cc/bst/xjws@1300000.m3u8
-#EXTINF:-1,tvg-id="安多卫视" tvg-name="安多卫视" tvg-logo="https://11.112114.xyz/logo/安多卫视.png" group-title="卫视",安多卫视-主力
+#EXTINF:-1,tvg-id="安多卫视" tvg-name="安多卫视"  group-title="卫视",安多卫视-主力
 https://mursor.ottiptv.cc/bst/adws2d5m@2500000.m3u8
-#EXTINF:-1,tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://11.112114.xyz/logo/西藏卫视.png" group-title="卫视",西藏卫视-主力
+#EXTINF:-1,tvg-id="西藏卫视" tvg-name="西藏卫视"  group-title="卫视",西藏卫视-主力
 https://mursor.ottiptv.cc/bst/xzws@2500000.m3u8
-#EXTINF:-1,tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://11.112114.xyz/logo/兵团卫视.png" group-title="卫视",兵团卫视-主力
+#EXTINF:-1,tvg-id="兵团卫视" tvg-name="兵团卫视"  group-title="卫视",兵团卫视-主力
 https://mursor.ottiptv.cc/bst/btws@1300000.m3u8
-#EXTINF:-1,tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://11.112114.xyz/logo/内蒙古卫视.png" group-title="卫视",内蒙古卫视-主力
+#EXTINF:-1,tvg-id="内蒙古卫视" tvg-name="内蒙古卫视"  group-title="卫视",内蒙古卫视-主力
 https://mursor.ottiptv.cc/bst/nmgws@1300000.m3u8
-#EXTINF:-1,tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://11.112114.xyz/logo/宁夏卫视.png" group-title="卫视",宁夏卫视-主力
+#EXTINF:-1,tvg-id="宁夏卫视" tvg-name="宁夏卫视"  group-title="卫视",宁夏卫视-主力
 https://mursor.ottiptv.cc/bst/nxws@1300000.m3u8
-#EXTINF:-1,tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://11.112114.xyz/logo/青海卫视.png" group-title="卫视",青海卫视-主力
+#EXTINF:-1,tvg-id="青海卫视" tvg-name="青海卫视"  group-title="卫视",青海卫视-主力
 https://mursor.ottiptv.cc/bst/qhws@1300000.m3u8
-#EXTINF:-1,tvg-id="新视觉HD" tvg-name="新视觉HD" tvg-logo="https://11.112114.xyz/logo/新视觉.png" group-title="其他",新视觉HD-主力
+#EXTINF:-1,tvg-id="新视觉HD" tvg-name="新视觉HD"  group-title="其他",新视觉HD-主力
 https://mursor.ottiptv.cc/bst/xsjhd@4000000.m3u8
-#EXTINF:-1,tvg-id="中国天气" tvg-name="中国天气" tvg-logo="https://11.112114.xyz/logo/中国天气.png" group-title="其他",中国天气-主力
+#EXTINF:-1,tvg-id="中国天气" tvg-name="中国天气"  group-title="其他",中国天气-主力
 https://mursor.ottiptv.cc/bst/zgqxhd4mc@4000000.m3u8
-#EXTINF:-1,tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://11.112114.xyz/logo/欢笑剧场.png" group-title="其他",欢笑剧场HD-主力
+#EXTINF:-1,tvg-id="欢笑剧场" tvg-name="欢笑剧场"  group-title="其他",欢笑剧场HD-主力
 https://mursor.ottiptv.cc/bst/hxjchd@4000000.m3u8
-#EXTINF:-1,tvg-id="热门剧场HD" tvg-name="热门剧场HD" tvg-logo="https://11.112114.xyz/logo/热门剧场.png" group-title="其他",热门剧场HD-主力
+#EXTINF:-1,tvg-id="热门剧场HD" tvg-name="热门剧场HD"  group-title="其他",热门剧场HD-主力
 https://mursor.ottiptv.cc/bst/rmjcvcc4m@4000000.m3u8
-#EXTINF:-1,tvg-id="都市剧场" tvg-name="都市剧场" tvg-logo="https://11.112114.xyz/logo/都市剧场.png" group-title="其他",都市剧场HD-主力
+#EXTINF:-1,tvg-id="都市剧场" tvg-name="都市剧场"  group-title="其他",都市剧场HD-主力
 https://mursor.ottiptv.cc/bst/dsjchd@4000000.m3u8
-#EXTINF:-1,tvg-id="谍战剧场HD" tvg-name="谍战剧场HD" tvg-logo="https://11.112114.xyz/logo/谍战剧场.png" group-title="其他",谍战剧场HD-主力
+#EXTINF:-1,tvg-id="谍战剧场HD" tvg-name="谍战剧场HD"  group-title="其他",谍战剧场HD-主力
 https://mursor.ottiptv.cc/bst/dzjcvcc4m@4000000.m3u8
-#EXTINF:-1,tvg-id="华语影院HD" tvg-name="华语影院HD" tvg-logo="https://11.112114.xyz/logo/华语影院.png" group-title="其他",华语影院HD-主力
+#EXTINF:-1,tvg-id="华语影院HD" tvg-name="华语影院HD"  group-title="其他",华语影院HD-主力
 https://mursor.ottiptv.cc/bst/hyyyvcc4m@4000000.m3u8
-#EXTINF:-1,tvg-id="星光影院HD" tvg-name="星光影院HD" tvg-logo="https://11.112114.xyz/logo/星光影院.png" group-title="其他",星光影院HD-主力
+#EXTINF:-1,tvg-id="星光影院HD" tvg-name="星光影院HD"  group-title="其他",星光影院HD-主力
 https://mursor.ottiptv.cc/bst/xgyyvcc4m@4000000.m3u8
-#EXTINF:-1,tvg-id="全球大片HD" tvg-name="全球大片HD" tvg-logo="https://11.112114.xyz/logo/全球大片.png" group-title="其他",全球大片HD-主力
+#EXTINF:-1,tvg-id="全球大片HD" tvg-name="全球大片HD"  group-title="其他",全球大片HD-主力
 https://mursor.ottiptv.cc/bst/qqdpvcc4m@4000000.m3u8
-#EXTINF:-1,tvg-id="热门综艺HD" tvg-name="热门综艺HD" tvg-logo="https://11.112114.xyz/logo/热门综艺.png" group-title="其他",热门综艺HD-主力
+#EXTINF:-1,tvg-id="热门综艺HD" tvg-name="热门综艺HD"  group-title="其他",热门综艺HD-主力
 https://mursor.ottiptv.cc/bst/rmzyvcc4m@4000000.m3u8
-#EXTINF:-1,tvg-id="动漫秀场" tvg-name="动漫秀场" tvg-logo="https://11.112114.xyz/logo/动漫秀场.png" group-title="其他",动漫秀场HD-主力
+#EXTINF:-1,tvg-id="动漫秀场" tvg-name="动漫秀场"  group-title="其他",动漫秀场HD-主力
 https://mursor.ottiptv.cc/bst/dmxchd@4000000.m3u8
-#EXTINF:-1,tvg-id="宝宝动画HD" tvg-name="宝宝动画HD" tvg-logo="https://11.112114.xyz/logo/宝宝动画.png" group-title="其他",宝宝动画HD-主力
+#EXTINF:-1,tvg-id="宝宝动画HD" tvg-name="宝宝动画HD"  group-title="其他",宝宝动画HD-主力
 https://mursor.ottiptv.cc/bst/bbdhvcc4m@4000000.m3u8
-#EXTINF:-1,tvg-id="青春动漫HD" tvg-name="青春动漫HD" tvg-logo="https://11.112114.xyz/logo/青春动漫.png" group-title="其他",青春动漫HD-主力
+#EXTINF:-1,tvg-id="青春动漫HD" tvg-name="青春动漫HD"  group-title="其他",青春动漫HD-主力
 https://mursor.ottiptv.cc/bst/qcdmvcc4m@4000000.m3u8
-#EXTINF:-1,tvg-id="百变课堂HD" tvg-name="百变课堂HD" tvg-logo="https://11.112114.xyz/logo/百变课堂.png" group-title="其他",百变课堂HD-主力
+#EXTINF:-1,tvg-id="百变课堂HD" tvg-name="百变课堂HD"  group-title="其他",百变课堂HD-主力
 https://mursor.ottiptv.cc/bst/bbktvcc4m@4000000.m3u8
-#EXTINF:-1,tvg-id="生活时尚" tvg-name="生活时尚" tvg-logo="https://11.112114.xyz/logo/生活时尚.png" group-title="其他",生活时尚HD-主力
+#EXTINF:-1,tvg-id="生活时尚" tvg-name="生活时尚"  group-title="其他",生活时尚HD-主力
 https://mursor.ottiptv.cc/bst/shsshd@4000000.m3u8
-#EXTINF:-1,tvg-id="游戏风云" tvg-name="游戏风云" tvg-logo="https://11.112114.xyz/logo/游戏风云.png" group-title="其他",游戏风云HD-主力
+#EXTINF:-1,tvg-id="游戏风云" tvg-name="游戏风云"  group-title="其他",游戏风云HD-主力
 https://mursor.ottiptv.cc/bst/yxfyhd@4000000.m3u8
-#EXTINF:-1,tvg-id="电竞天堂" tvg-name="电竞天堂" tvg-logo="https://11.112114.xyz/logo/电竞天堂.png" group-title="其他",电竞天堂HD-主力
+#EXTINF:-1,tvg-id="电竞天堂" tvg-name="电竞天堂"  group-title="其他",电竞天堂HD-主力
 https://mursor.ottiptv.cc/bst/djttvcc4m@4000000.m3u8
-#EXTINF:-1,tvg-id="金色学堂" tvg-name="金色学堂" tvg-logo="https://11.112114.xyz/logo/金色学堂.png" group-title="其他",金色学堂HD-主力
+#EXTINF:-1,tvg-id="金色学堂" tvg-name="金色学堂"  group-title="其他",金色学堂HD-主力
 https://mursor.ottiptv.cc/bst/jsxthd4m@4000000.m3u8
-#EXTINF:-1,tvg-id="健康养生HD" tvg-name="健康养生HD" tvg-logo="https://11.112114.xyz/logo/健康养生.png" group-title="其他",健康养生HD-主力
+#EXTINF:-1,tvg-id="健康养生HD" tvg-name="健康养生HD"  group-title="其他",健康养生HD-主力
 https://mursor.ottiptv.cc/bst/jkysvcc4m@4000000.m3u8
-#EXTINF:-1,tvg-id="戏曲精选HD" tvg-name="戏曲精选HD" tvg-logo="https://11.112114.xyz/logo/戏曲精选.png" group-title="其他",戏曲精选HD-主力
+#EXTINF:-1,tvg-id="戏曲精选HD" tvg-name="戏曲精选HD"  group-title="其他",戏曲精选HD-主力
 https://mursor.ottiptv.cc/bst/xqjxvcc4m@4000000.m3u8
-#EXTINF:-1,tvg-id="茶" tvg-name="茶" tvg-logo="https://11.112114.xyz/logo/茶.png" group-title="其他",茶频道HD-主力
+#EXTINF:-1,tvg-id="茶" tvg-name="茶"  group-title="其他",茶频道HD-主力
 https://mursor.ottiptv.cc/bst/cpdhdavs8m@8000000.m3u8
-#EXTINF:-1,tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="https://11.112114.xyz/logo/快乐垂钓.png" group-title="其他",快乐垂钓HD-主力
+#EXTINF:-1,tvg-id="快乐垂钓" tvg-name="快乐垂钓"  group-title="其他",快乐垂钓HD-主力
 https://mursor.ottiptv.cc/bst/klcdhd4m@4000000.m3u8
-#EXTINF:-1,tvg-id="东方财经HD" tvg-name="东方财经HD" tvg-logo="https://11.112114.xyz/logo/东方财经.png" group-title="其他",东方财经HD-主力
+#EXTINF:-1,tvg-id="东方财经HD" tvg-name="东方财经HD"  group-title="其他",东方财经HD-主力
 https://mursor.ottiptv.cc/bst/dfcjhd4m@4000000.m3u8
-#EXTINF:-1,tvg-id="家庭理财" tvg-name="家庭理财" tvg-logo="https://11.112114.xyz/logo/家庭理财.png" group-title="其他",家庭理财-主力
+#EXTINF:-1,tvg-id="家庭理财" tvg-name="家庭理财"  group-title="其他",家庭理财-主力
 https://mursor.ottiptv.cc/bst/jtlcsd2d5mc@2500000.m3u8
-#EXTINF:-1,tvg-id="财富天下" tvg-name="财富天下" tvg-logo="https://11.112114.xyz/logo/财富天下.png" group-title="其他",财富天下-主力
+#EXTINF:-1,tvg-id="财富天下" tvg-name="财富天下"  group-title="其他",财富天下-主力
 https://mursor.ottiptv.cc/bst/cftx@2500000.m3u8
-#EXTINF:-1,tvg-id="法治天地" tvg-name="法治天地" tvg-logo="https://11.112114.xyz/logo/法治天地.png" group-title="其他",法治天地HD-主力
+#EXTINF:-1,tvg-id="法治天地" tvg-name="法治天地"  group-title="其他",法治天地HD-主力
 https://mursor.ottiptv.cc/bst/fztd2d5m@2500000.m3u8
-#EXTINF:-1,tvg-id="看天下精选HD" tvg-name="看天下精选HD" tvg-logo="https://11.112114.xyz/logo/看天下精选.png" group-title="其他",看天下精选HD-主力
+#EXTINF:-1,tvg-id="看天下精选HD" tvg-name="看天下精选HD"  group-title="其他",看天下精选HD-主力
 https://mursor.ottiptv.cc/bst/ktxjx8m@8000000.m3u8
-#EXTINF:-1,tvg-id="东方购物上星" tvg-name="东方购物上星" tvg-logo="https://11.112114.xyz/logo/东方购物上星.png" group-title="其他",东方购物上星-主力
+#EXTINF:-1,tvg-id="东方购物上星" tvg-name="东方购物上星"  group-title="其他",东方购物上星-主力
 https://mursor.ottiptv.cc/bst/dfgwsxhd8m@8000000.m3u8
-#EXTINF:-1,tvg-id="好享购物" tvg-name="好享购物" tvg-logo="https://11.112114.xyz/logo/好享购物.png" group-title="其他",好享购物-主力
+#EXTINF:-1,tvg-id="好享购物" tvg-name="好享购物"  group-title="其他",好享购物-主力
 https://mursor.ottiptv.cc/bst/hxgwsd2d5m@2500000.m3u8
-#EXTINF:-1,tvg-id="央广购物" tvg-name="央广购物" tvg-logo="https://11.112114.xyz/logo/央广购物.png" group-title="其他",央广购物-主力
+#EXTINF:-1,tvg-id="央广购物" tvg-name="央广购物"  group-title="其他",央广购物-主力
 https://mursor.ottiptv.cc/bst/yggwsd2d5m@2500000.m3u8
-#EXTINF:-1,tvg-id="三沙卫视" tvg-name="三沙卫视" tvg-logo="https://11.112114.xyz/logo/三沙卫视.png" group-title="卫视",三沙卫视HD-主力
+#EXTINF:-1,tvg-id="三沙卫视" tvg-name="三沙卫视"  group-title="卫视",三沙卫视HD-主力
 https://mursor.ottiptv.cc/bst/ssws2d5m@2500000.m3u8
-#EXTINF:-1,tvg-id="乐游" tvg-name="乐游" tvg-logo="https://11.112114.xyz/logo/乐游.png" group-title="其他",乐游-主力
+#EXTINF:-1,tvg-id="乐游" tvg-name="乐游"  group-title="其他",乐游-主力
 https://mursor.ottiptv.cc/bst/qjshd@4000000.m3u8
