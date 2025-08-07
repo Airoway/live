@@ -17,11 +17,34 @@ jobs:
       
     - name: Process M3U file
       run: |
+        function fetch_with_retry() {
+          local url=$1
+          local max_retries=3
+          local retry_count=0
+          local timeout=30
+          
+          while [ $retry_count -lt $max_retries ]; do
+            if content=$(curl -s --connect-timeout $timeout "$url"); then
+              echo "$content"
+              return 0
+            fi
+            retry_count=$((retry_count+1))
+            sleep 5
+          done
+          return 1
+        }
+
         KEEP_GROUPS=("央视" "卫视" "地方" "影视" "主力-央视" "主力-卫视" "主力-其他")
         
-        echo "#EXTM3U x-tvg-url=\"https://11.112114.xyz/pp.xml\"" > tv/iptv.m3u
+        TEMP_FILE=$(mktemp)
+        echo "#EXTM3U x-tvg-url=\"https://11.112114.xyz/pp.xml\"" > $TEMP_FILE
         
-        curl -s "https://11.112114.xyz/pp.xml" | while IFS= read -r line; do
+        if ! content=$(fetch_with_retry "https://11.112114.xyz/pp.xml"); then
+          echo "Failed to fetch M3U file after retries"
+          exit 1
+        fi
+        
+        echo "$content" | while IFS= read -r line; do
           if [[ "$line" == *"group-title=\""* ]]; then
             group=$(echo "$line" | grep -o 'group-title="[^"]*"' | cut -d'"' -f2)
             
@@ -36,19 +59,33 @@ jobs:
             if $keep; then
               new_group=$(echo "$group" | sed 's/主力-//')
               cleaned_line=$(echo "$line" | sed 's/tvg-logo="[^"]*\.jpg"//g')
-              echo "$cleaned_line" | sed "s/group-title=\"$group\"/group-title=\"$new_group\"/" >> tv/iptv.m3u
+              echo "$cleaned_line" | sed "s/group-title=\"$group\"/group-title=\"$new_group\"/" >> $TEMP_FILE
             fi
           elif [[ "$line" == "#EXTINF"* ]]; then
-            echo "$line" | sed 's/tvg-logo="[^"]*\.jpg"//g' >> tv/iptv.m3u
+            echo "$line" | sed 's/tvg-logo="[^"]*\.jpg"//g' >> $TEMP_FILE
           elif [[ "$line" == http* ]]; then
-            echo "$line" >> tv/iptv.m3u
+            echo "$line" >> $TEMP_FILE
           fi
         done
         
-        if ! cmp -s tv/iptv.m3u tv/iptv.m3u.bak 2>/dev/null; then
+        if [ $(wc -l < $TEMP_FILE) -lt 10 ]; then
+          echo "Error: Output file seems incomplete"
+          exit 1
+        fi
+        
+        channel_count=$(grep -c "^#EXTINF" $TEMP_FILE)
+        if [ $channel_count -lt 50 ]; then
+          echo "Error: Too few channels ($channel_count)"
+          exit 1
+        fi
+        
+        if ! cmp -s $TEMP_FILE tv/iptv.m3u 2>/dev/null; then
+          mv $TEMP_FILE tv/iptv.m3u
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add tv/iptv.m3u
           git commit -m "Auto-update playlist [skip ci]"
           git push
+        else
+          rm $TEMP_FILE
         fi
