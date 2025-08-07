@@ -1,32 +1,24 @@
 name: iptv
-
 on:
   schedule:
     - cron: '0 */2 * * *'
   workflow_dispatch:
-
 jobs:
   sync-m3u:
     runs-on: ubuntu-latest
-    
     steps:
     - uses: actions/checkout@v4
-      
     - name: Create tv directory
       run: mkdir -p tv
-      
     - name: Download and process M3U
       run: |
         KEEP_GROUPS=("央视" "卫视" "地方" "影视" "主力-央视" "主力-卫视" "主力-其他")
-        
-        curl -s "https://11.112114.xyz/pp.xml" -o source.m3u
-        
-        echo "#EXTM3U x-tvg-url=\"https://11.112114.xyz/pp.xml\"" > tv/iptv.m3u
-        
+        TEMP_FILE=$(mktemp)
+        curl -s "https://raw.githubusercontent.com/Mursor/LIVE/refs/heads/main/iptv.m3u" -o $TEMP_FILE
+        echo "#EXTM3U" > tv/iptv.m3u
         while IFS= read -r line; do
           if [[ "$line" == *"group-title=\""* ]]; then
             group=$(echo "$line" | grep -o 'group-title="[^"]*"' | cut -d'"' -f2)
-            
             for g in "${KEEP_GROUPS[@]}"; do
               if [[ "$group" == "$g" ]]; then
                 new_group=${group//主力-/}
@@ -39,15 +31,14 @@ jobs:
           elif [[ "$line" == http* ]]; then
             echo "$line" >> tv/iptv.m3u
           fi
-        done < source.m3u
-        
-        if [ -s tv/iptv.m3u ]; then
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add tv/iptv.m3u
-          git commit -m "Update IPTV playlist"
-          git push
-        else
-          echo "Error: Generated file is empty"
+        done < $TEMP_FILE
+        rm -f $TEMP_FILE
+        if [ ! -s tv/iptv.m3u ]; then
+          echo "Error: Output file is empty"
           exit 1
         fi
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add tv/iptv.m3u
+        git commit -m "Auto-update playlist from Mursor/LIVE [skip ci]"
+        git push
