@@ -49743,6 +49743,9 @@
 	<programme channel="newtv超级电影" start="20250809011500 +0800" stop="20250809023300 +0800">
 		<title lang="zh">食人虫</title>
 	</programme>
+	<programme channel="newtv超级电影" start="20250809023300 +0800" stop="20250809040600 +0800">
+		<title lang="zh">一起飞</title>
+	</programme>
 	<channel id="newtv超级电视剧">
 		<display-name lang="zh">NEWTV超级电视剧</display-name>
 	</channel>
@@ -49824,6 +49827,9 @@
 	<programme channel="newtv动作电影" start="20250809014700 +0800" stop="20250809022600 +0800">
 		<title lang="zh">茯苓添康健康2</title>
 	</programme>
+	<programme channel="newtv动作电影" start="20250809022600 +0800" stop="20250809041100 +0800">
+		<title lang="zh">雪鹰领主</title>
+	</programme>
 	<channel id="newtv怡伴健康">
 		<display-name lang="zh">NEWTV怡伴健康</display-name>
 	</channel>
@@ -49869,11 +49875,17 @@
 	<programme channel="newtv炫舞未来" start="20250809015700 +0800" stop="20250809022200 +0800">
 		<title lang="zh">第二集 雕工镌影</title>
 	</programme>
+	<programme channel="newtv炫舞未来" start="20250809022200 +0800" stop="20250809023400 +0800">
+		<title lang="zh">桥边姑娘-尚岩（完整版）</title>
+	</programme>
 	<channel id="newtv精品综合">
 		<display-name lang="zh">NEWTV精品综合</display-name>
 	</channel>
 	<programme channel="newtv精品综合" start="20250809000100 +0800" stop="20250809022200 +0800">
 		<title lang="zh">电光火石</title>
+	</programme>
+	<programme channel="newtv精品综合" start="20250809022200 +0800" stop="20250809050300 +0800">
+		<title lang="zh">令人心动的offer第5季</title>
 	</programme>
 	<channel id="newtv惊悚悬疑">
 		<display-name lang="zh">NEWTV惊悚悬疑</display-name>
