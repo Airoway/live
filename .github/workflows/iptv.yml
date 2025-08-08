@@ -24,32 +24,23 @@ jobs:
       run: |
         KEEP_GROUPS=("央视" "卫视" "地方" "影视" "主力-央视" "主力-卫视" "主力-其他")
         TEMP_FILE=$(mktemp)
-        
-        if ! curl -s "https://raw.githubusercontent.com/Mursor/LIVE/refs/heads/main/iptv.m3u" -o $TEMP_FILE || [ ! -s $TEMP_FILE ]; then
-          echo "Error: Failed to download source file"
-          exit 1
-        fi
+        curl -s "https://raw.githubusercontent.com/Mursor/LIVE/refs/heads/main/iptv.m3u" -o $TEMP_FILE
         
         echo '#EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml"' > tv/iptv.m3u
         
-        valid_channels=0
         while IFS= read -r line; do
           if [[ "$line" == *"group-title=\""* ]]; then
             group=$(echo "$line" | grep -o 'group-title="[^"]*"' | cut -d'"' -f2)
             for g in "${KEEP_GROUPS[@]}"; do
               if [[ "$group" == "$g" ]]; then
                 new_group=${group//主力-/}
-                cleaned_line=$(echo "$line" | sed -e 's/tvg-logo="[^"]*\.png"//g' -e 's/tvg-logo="[^"]*\.jpg"//g')
+                cleaned_line=$(echo "$line" | sed 's/tvg-logo="[^"]*\.png"//g' | sed 's/tvg-logo="[^"]*\.jpg"//g')
                 echo "$cleaned_line" | sed "s/group-title=\"$group\"/group-title=\"$new_group\"/" >> tv/iptv.m3u
-                ((valid_channels++))
                 break
               fi
             done
-          elif [[ "$line" == *"CCTV"* ]]; then
-            echo "$line" | sed 's/CCTV\([0-9]\+\)综合/CCTV-\1/g' >> tv/iptv.m3u
-            ((valid_channels++))
           elif [[ "$line" == "#EXTINF"* && ! "$line" == *"http"* ]]; then
-            echo "$line" >> tv/iptv.m3u
+            echo "$line" | sed 's/tvg-logo="[^"]*\.png"//g' | sed 's/tvg-logo="[^"]*\.jpg"//g' >> tv/iptv.m3u
           elif [[ "$line" == http* ]]; then
             echo "$line" >> tv/iptv.m3u
           fi
@@ -57,13 +48,11 @@ jobs:
         
         rm -f $TEMP_FILE
         
-        if [ $valid_channels -lt 5 ]; then
-          echo "Error: Valid channels less than 5 (found $valid_channels)"
+        if [ $(grep -c "#EXTINF" tv/iptv.m3u) -lt 10 ]; then
+          echo "Error: Insufficient channels"
           exit 1
         fi
         
         git add tv/iptv.m3u
-        if ! git diff-index --quiet HEAD --; then
-          git commit -m "Auto-update playlist [skip ci]"
-          git push
-        fi
+        git commit -m "Auto-update playlist [skip ci]"
+        git push
