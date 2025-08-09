@@ -6,6 +6,8 @@ on:
 jobs:
   sync-m3u:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
     - uses: actions/checkout@v4
     - name: Create tv directory
@@ -14,9 +16,9 @@ jobs:
       run: |
         KEEP_GROUPS=("央视" "卫视" "地方" "影视" "主力-央视" "主力-卫视" "主力-其他")
         TEMP_FILE=$(mktemp)
-        curl -s "https://raw.githubusercontent.com/Mursor/LIVE/refs/heads/main/iptv.m3u" -o $TEMP_FILE
+        curl -s "https://raw.githubusercontent.com/Mursor/LIVE/refs/heads/main/iptv.m3u" -o $TEMP_FILE || exit 1
         
-        echo '#EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml" > tv/iptv.m3u
+        echo '#EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml"' > tv/iptv.m3u
         
         while IFS= read -r line; do
           if [[ "$line" == *"group-title=\""* ]]; then
