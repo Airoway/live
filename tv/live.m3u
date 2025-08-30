@@ -1,41 +1,5 @@
 #EXTM3U x-tvg-url="web://https://live.fanmingming.cn/e.xml"
 #EXTINF:-1 tvg-name="CCTV1" group-title="央视",CCTV-1
-web://https://tv.cctv.com/live/cctv1
-#EXTINF:-1 tvg-name="CCTV2" group-title="央视",CCTV-2
-web://https://tv.cctv.com/live/cctv2
-#EXTINF:-1 tvg-name="CCTV3" group-title="央视",CCTV-3
-web://https://tv.cctv.com/live/cctv3
-#EXTINF:-1 tvg-name="CCTV4" group-title="央视",CCTV-4
-web://https://tv.cctv.com/live/cctv4
-#EXTINF:-1 tvg-name="CCTV5" group-title="央视",CCTV-5
-web://https://tv.cctv.com/live/cctv5
-#EXTINF:-1 tvg-name="CCTV5+" group-title="央视",CCTV-5+
-web://https://tv.cctv.com/live/cctv5plus
-#EXTINF:-1 tvg-name="CCTV6" group-title="央视",CCTV-6
-web://https://tv.cctv.com/live/cctv6
-#EXTINF:-1 tvg-name="CCTV7" group-title="央视",CCTV-7
-web://https://tv.cctv.com/live/cctv7
-#EXTINF:-1 tvg-name="CCTV8" group-title="央视",CCTV-8
-web://https://tv.cctv.com/live/cctv8
-#EXTINF:-1 tvg-name="CCTV9" group-title="央视",CCTV-9
-web://https://tv.cctv.com/live/cctvjilu
-#EXTINF:-1 tvg-name="CCTV10" group-title="央视",CCTV-10
-web://https://tv.cctv.com/live/cctv10
-#EXTINF:-1 tvg-name="CCTV11" group-title="央视",CCTV-11
-web://https://tv.cctv.com/live/cctv11
-#EXTINF:-1 tvg-name="CCTV12" group-title="央视",CCTV-12
-web://https://tv.cctv.com/live/cctv12
-#EXTINF:-1 tvg-name="CCTV13" group-title="央视",CCTV-13
-web://https://tv.cctv.com/live/cctv13
-#EXTINF:-1 tvg-name="CCTV14" group-title="央视",CCTV-14
-web://https://tv.cctv.com/live/cctvchild
-#EXTINF:-1 tvg-name="CCTV15" group-title="央视",CCTV-15
-web://https://tv.cctv.com/live/cctv15
-#EXTINF:-1 tvg-name="CCTV16" group-title="央视",CCTV-16
-web://https://tv.cctv.com/live/cctv16
-#EXTINF:-1 tvg-name="CCTV17" group-title="央视",CCTV-17
-web://https://tv.cctv.com/live/cctv17
-#EXTINF:-1 tvg-name="CCTV1" group-title="央视",CCTV-1
 web://https://yangshipin.cn/tv/home?pid=600001859
 #EXTINF:-1 tvg-name="CCTV2" group-title="央视",CCTV-2
 web://https://yangshipin.cn/tv/home?pid=600001800
