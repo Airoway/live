@@ -16113,6 +16113,9 @@
 	<programme channel="咪咕综合体育" start="20250911012500 +0800" stop="20250911023000 +0800">
 		<title lang="zh">纪录片贝克汉姆 名传四方</title>
 	</programme>
+	<programme channel="咪咕综合体育" start="20250911023000 +0800" stop="20250911045000 +0800">
+		<title lang="zh">UFC第317期 主赛</title>
+	</programme>
 	<channel id="咪咕足球">
 		<display-name lang="zh">咪咕足球</display-name>
 	</channel>
@@ -51252,6 +51255,9 @@
 	<programme channel="newtv精品大剧" start="20250911014200 +0800" stop="20250911022700 +0800">
 		<title lang="zh">44_警犬来啦</title>
 	</programme>
+	<programme channel="newtv精品大剧" start="20250911022700 +0800" stop="20250911031100 +0800">
+		<title lang="zh">45_警犬来啦</title>
+	</programme>
 	<channel id="newtv精品纪录">
 		<display-name lang="zh">NEWTV精品纪录</display-name>
 	</channel>
@@ -51266,6 +51272,9 @@
 	</programme>
 	<programme channel="newtv精品纪录" start="20250911020100 +0800" stop="20250911023100 +0800">
 		<title lang="zh">第三集：城市绿心</title>
+	</programme>
+	<programme channel="newtv精品纪录" start="20250911023100 +0800" stop="20250911030100 +0800">
+		<title lang="zh">第四集：聚能动力</title>
 	</programme>
 	<channel id="newtv古装剧场">
 		<display-name lang="zh">NEWTV古装剧场</display-name>
@@ -51363,6 +51372,9 @@
 	<programme channel="newtv潮妈辣婆" start="20250911013200 +0800" stop="20250911021800 +0800">
 		<title lang="zh">我姥爷1945之绝命枪第7集</title>
 	</programme>
+	<programme channel="newtv潮妈辣婆" start="20250911021800 +0800" stop="20250911030300 +0800">
+		<title lang="zh">我姥爷1945之绝命枪第8集</title>
+	</programme>
 	<channel id="newtv军事评论">
 		<display-name lang="zh">NEWTV军事评论</display-name>
 	</channel>
@@ -51392,6 +51404,9 @@
 	</programme>
 	<programme channel="newtv精品综合" start="20250911005400 +0800" stop="20250911022400 +0800">
 		<title lang="zh">六扇门之绝战</title>
+	</programme>
+	<programme channel="newtv精品综合" start="20250911022400 +0800" stop="20250911035200 +0800">
+		<title lang="zh">令人心动的offer第6季</title>
 	</programme>
 	<channel id="newtv惊悚悬疑">
 		<display-name lang="zh">NEWTV惊悚悬疑</display-name>
