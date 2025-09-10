@@ -27,7 +27,6 @@
 {"key":"厂长","name":"厂长┃直连","type":3,"api":"csp_CzzyGuard","searchable":1,"quickSearch":1,"filterable":1,"timeout":10},
 {"key":"荐片","name":"荐片┃手机","type":3,"api":"csp_JianpianGuard","searchable":1,"quickSearch":1,"filterable":1,"timeout":10},
 {"key":"️爱看Bot","name":"爱看┃直连","type":3,"api":"csp_IkanbotGuard","searchable":1,"quickSearch":1,"filterable":1,"timeout":10},
-"categories":["国产剧","国产动漫","日本动漫","港剧","韩剧","欧美剧","国产综艺"]},
 {"key":"甜圈短剧","name":"甜圈┃短剧","type":3,"api":"csp_TianQuanGuard","searchable":1,"quickSearch":1,"filterable":1,"timeout":10},
 {"key":"csp_Btt","name":"比特┃在线","type":3,"api":"csp_BttGuard","searchable":1,"quickSearch":1,"changeable":1,"timeout":10},
 {"key":"ddys_js","name":"低端┃在线","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"https://im.feelec.com.cn/res/file.html?id=2c9a91099696ce4301974da3916550ff&file=drpy2.min.js","ext":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720319885464/ddys.txt","timeout":15},
