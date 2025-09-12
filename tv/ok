@@ -84,7 +84,7 @@
 ],
 "ads":["mozai.4gtv.tv"],
 "lives": [
-{"name":"移动","url":"https://i.iomo.run.place/sn.txt"},
+{"name":"移动","url":"https://i.iomo.run.place/sn.txt","ua": "Mozilla/5.0"},
 {"name":"联通","url":"https://i.iomo.run.place/un.txt"},
 {"name":"电信","url":"https://i.iomo.run.place/cc.txt","ua": "okhttp/3.15"}
 ],
