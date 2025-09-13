@@ -84,9 +84,9 @@
 ],
 "ads":["mozai.4gtv.tv"],
 "lives": [
-{"name":"移动","url":"https://i.iomo.run.place/sn.txt","ua": "Mozilla/5.0"},
-{"name":"联通","url":"https://i.iomo.run.place/un.txt","ua": "Mozilla/5.0"},
-{"name":"电信","url":"https://i.iomo.run.place/cc.txt","ua": "okhttp/3.15"}
+{"name":"移动","url":"https://i.iomo.run.place/sn.txt","ua":"Mozilla/5.0"},
+{"name":"联通","url":"https://i.iomo.run.place/un.txt","ua":"Mozilla/5.0"},
+{"name":"电信","url":"http://rihou.cc:567/gggg.nzk","ua":"okhttp/3.15"}
 ],
 "ijk":[{"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},
 {"category":4,"name":"overlay-format","value":"842225234"},
