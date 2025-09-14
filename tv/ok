@@ -3,8 +3,6 @@
 "wallpaper":"https://深色壁纸.xxooo.cf","logo":"http://v.iomo.run.place/tv/logo.png",
 "sites":[
 {"key":"豆瓣","name":"爱无┃止境","type":3,"api":"csp_DoubanGuard","searchable":0,"changeable":1},
-{"key":"天天","name":"天天┃App","type":3,"api":"csp_TianTianGuard","searchable":1,"quickSearch":1,"filterable":1,"ext":{"site":1},
-"timeout":10},
 {"key":"热播","name":"热播┃App","type":3,"api":"csp_TianTianGuard","searchable":1,"quickSearch":1,"filterable":1,"ext":{"site":0},
 "timeout":10},
 {"key":"快手直播","name":"快手┃直播","type":3,"api":"csp_KsLiveGuard","searchable":0,"quickSearch":0,"filterable":1,"style":{"type":"rect","ratio":1.433},
@@ -84,9 +82,9 @@
 ],
 "ads":["mozai.4gtv.tv"],
 "lives": [
-{"name":"移动","url":"https://i.iomo.run.place/sn.txt","ua":"Mozilla/5.0"},
-{"name":"联通","url":"https://i.iomo.run.place/un.txt","ua":"Mozilla/5.0"},
-{"name":"电信","url":"https://188766.xyz/bingcha","ua":"okhttp/3.15"}
+{"name":"移动","url":"http://i.iomo.run.place/sn.txt","ua":"Mozilla/5.0"},
+{"name":"联通","url":"http://i.iomo.run.place/un.txt","ua":"Mozilla/5.0"},
+{"name":"电信","url":"http://i.iomo.run.place/cc.txt","ua":"okhttp/3.15"}
 ],
 "ijk":[{"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},
 {"category":4,"name":"overlay-format","value":"842225234"},
