@@ -85,7 +85,7 @@
 {"name":"移动","url":"http://i.iomo.run.place/sn.txt","ua":"Mozilla/5.0"},
 {"name":"联通","url":"http://i.iomo.run.place/un.txt","ua":"Mozilla/5.0"},
 {"name":"电信","url":"http://i.iomo.run.place/cc.txt","ua":"okhttp/3.15"},
-{"name":"Live","type":0,"url":"https://gh.xxooo.cf/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt","playerType":2,"timeout":10},
+{"name":"Live","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt","playerType":2,"timeout":10},
 {"name":"iptv","url":"https://mursor.ottiptv.cc/iptv.m3u?userid=5554959808&sign=deba66dad0bed9358ce6b831613f41a89e8d980b547e4153fe973211c1135ee0ba6aebf0d1dcb63140c00cd814339b2613d24bbf602e70806588eb065ec6faa1a8ec722ba97a3e&auth_token=5f809f5b6b40dbaad568809da1c8cdfa","ua":"okHttp/Mod-1.4.0.0"}
 ],
 "ijk":[{"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},
