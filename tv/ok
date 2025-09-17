@@ -1,5 +1,5 @@
 {
-"spider":"https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/2381B39_773_okpng_20250915164134506newMediaFile.png",
+"spider":"https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/2C68AC7_773_okpng_20250916105726607newMediaFile.png",
 "wallpaper":"https://深色壁纸.xxooo.cf","logo":"http://v.iomo.run.place/tv/logo.png",
 "sites":[
 {"key":"豆瓣","name":"爱无┃止境","type":3,"api":"csp_DoubanGuard","searchable":0,"changeable":1},
@@ -84,9 +84,7 @@
 "lives": [
 {"name":"移动","url":"http://i.iomo.run.place/sn.txt","ua":"Mozilla/5.0"},
 {"name":"联通","url":"http://i.iomo.run.place/un.txt","ua":"Mozilla/5.0"},
-{"name":"电信","url":"http://i.iomo.run.place/cc.txt","ua":"okhttp/3.15"},
-{"name":"Live","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt","playerType":2,"timeout":10},
-{"name":"iptv","url":"https://mursor.ottiptv.cc/iptv.m3u?userid=5554959808&sign=deba66dad0bed9358ce6b831613f41a89e8d980b547e4153fe973211c1135ee0ba6aebf0d1dcb63140c00cd814339b2613d24bbf602e70806588eb065ec6faa1a8ec722ba97a3e&auth_token=5f809f5b6b40dbaad568809da1c8cdfa","ua":"okHttp/Mod-1.4.0.0"}
+{"name":"电信","url":"https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt","ua":"okhttp/3.15"}
 ],
 "ijk":[{"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},
 {"category":4,"name":"overlay-format","value":"842225234"},
