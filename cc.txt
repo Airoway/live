@@ -1,8 +1,0 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Redirecting...</title>
-    <script>
-        window.location.href = "https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt";
-    </script>
-</head>
