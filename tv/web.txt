@@ -1,7 +1,7 @@
 央视,#genre#
 CCTV-1,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://yangshipin.cn/tv/home?pid=600001859
 CCTV-2,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://yangshipin.cn/tv/home?pid=600001800
-CCTV-3,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://www.yangshipin.cn/tv/home?pid=600001801
+CCTV-3,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://yangshipin.cn/tv/home?pid=600001801
 CCTV-4,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://yangshipin.cn/tv/home?pid=600001814
 CCTV-5,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://yangshipin.cn/tv/home?pid=600001818
 CCTV-5+,https://v.iomo.run.place/k-web/ku9/js/js/web.js?id=https://yangshipin.cn/tv/home?pid=600001817
