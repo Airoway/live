@@ -38568,6 +38568,9 @@
 	<programme channel="纯享4K" start="20251013003000 +0800" stop="20251013005800 +0800">
 		<title lang="zh">记住乡愁 第八季4K 东村——闯海人家 大蚝之乡</title>
 	</programme>
+	<programme channel="纯享4K" start="20251013005800 +0800" stop="20251013012800 +0800">
+		<title lang="zh">味道4K 原味乡间b7抚州篇</title>
+	</programme>
 	<channel id="经典剧场">
 		<display-name lang="zh">经典剧场</display-name>
 	</channel>
@@ -47307,6 +47310,9 @@
 	<programme channel="newtv超级电视剧" start="20251013000900 +0800" stop="20251013005300 +0800">
 		<title lang="zh">16_黑白森林</title>
 	</programme>
+	<programme channel="newtv超级电视剧" start="20251013005300 +0800" stop="20251013013800 +0800">
+		<title lang="zh">17_黑白森林</title>
+	</programme>
 	<channel id="newtv精品大剧">
 		<display-name lang="zh">NEWTV精品大剧</display-name>
 	</channel>
@@ -47328,17 +47334,26 @@
 	<programme channel="newtv古装剧场" start="20251013001600 +0800" stop="20251013005600 +0800">
 		<title lang="zh">黑芝麻丸</title>
 	</programme>
+	<programme channel="newtv古装剧场" start="20251013005600 +0800" stop="20251013014100 +0800">
+		<title lang="zh">33_包青天之七侠五义</title>
+	</programme>
 	<channel id="newtv军旅剧场">
 		<display-name lang="zh">NEWTV军旅剧场</display-name>
 	</channel>
 	<programme channel="newtv军旅剧场" start="20251013002000 +0800" stop="20251013010000 +0800">
 		<title lang="zh">龙血树叶粉</title>
 	</programme>
+	<programme channel="newtv军旅剧场" start="20251013010000 +0800" stop="20251013014500 +0800">
+		<title lang="zh">03_瞄准</title>
+	</programme>
 	<channel id="newtv家庭剧场">
 		<display-name lang="zh">NEWTV家庭剧场</display-name>
 	</channel>
 	<programme channel="newtv家庭剧场" start="20251013000100 +0800" stop="20251013004700 +0800">
 		<title lang="zh">13_我的后半生</title>
+	</programme>
+	<programme channel="newtv家庭剧场" start="20251013004700 +0800" stop="20251013013200 +0800">
+		<title lang="zh">14_我的后半生</title>
 	</programme>
 	<channel id="newtv热播精选">
 		<display-name lang="zh">NEWTV热播精选</display-name>
@@ -47376,6 +47391,9 @@
 	<programme channel="newtv潮妈辣婆" start="20251013000300 +0800" stop="20251013004700 +0800">
 		<title lang="zh">01_狐影</title>
 	</programme>
+	<programme channel="newtv潮妈辣婆" start="20251013004700 +0800" stop="20251013013100 +0800">
+		<title lang="zh">02_狐影</title>
+	</programme>
 	<channel id="newtv军事评论">
 		<display-name lang="zh">NEWTV军事评论</display-name>
 	</channel>
@@ -47393,6 +47411,9 @@
 	</channel>
 	<programme channel="newtv精品综合" start="20251013000900 +0800" stop="20251013004900 +0800">
 		<title lang="zh">太空骨王骨胶原新版</title>
+	</programme>
+	<programme channel="newtv精品综合" start="20251013004900 +0800" stop="20251013022800 +0800">
+		<title lang="zh">龙形侠影黄澄可</title>
 	</programme>
 	<channel id="newtv惊悚悬疑">
 		<display-name lang="zh">NEWTV惊悚悬疑</display-name>
