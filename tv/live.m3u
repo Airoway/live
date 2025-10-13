@@ -4,7 +4,7 @@ web://https://yangshipin.cn/tv/home?pid=600001859
 #EXTINF:-1 tvg-name="CCTV2" group-title="央视",CCTV-2
 web://https://yangshipin.cn/tv/home?pid=600001800
 #EXTINF:-1 tvg-name="CCTV3" group-title="央视",CCTV-3
-web://https://tv.cctv.com/live/cctv3/
+web://https://yangshipin.cn/tv/home?pid=600001801
 #EXTINF:-1 tvg-name="CCTV4" group-title="央视",CCTV-4
 web://https://yangshipin.cn/tv/home?pid=600001814
 #EXTINF:-1 tvg-name="CCTV5" group-title="央视",CCTV-5
