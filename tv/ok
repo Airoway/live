@@ -1,5 +1,5 @@
 {
-"spider":"http://v.iomo.run.place/tv/v.jar",
+"spider":"https://gh-proxy.com/https://raw.githubusercontent.com/Airoway/live/refs/heads/main/tv/v.jar",
 "wallpaper":"https://深色壁纸.xxooo.cf","logo":"http://v.iomo.run.place/tv/logo.png",
 "sites":[
 {"key":"豆瓣","name":"爱无┃止境","type":3,"api":"csp_DoubanGuard","searchable":0,"changeable":1},
