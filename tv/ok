@@ -1,5 +1,5 @@
 {
-"spider":"https://gh-proxy.com/https://raw.githubusercontent.com/Airoway/live/refs/heads/main/tv/v.jar",
+"spider":"https://git.yylx.win/https://raw.githubusercontent.com/Airoway/live/refs/heads/main/tv/v.jar",
 "wallpaper":"https://深色壁纸.xxooo.cf","logo":"http://v.iomo.run.place/tv/logo.png",
 "sites":[
 {"key":"豆瓣","name":"爱无┃止境","type":3,"api":"csp_DoubanGuard","searchable":0,"changeable":1},
@@ -9,7 +9,8 @@
 "timeout":10},
 {"key":"虎牙直播","name":"虎牙┃直播","type":3,"api":"csp_HuyaGuard","searchable":0,"quickSearch":0,"changeable":0,"filterable":1,"style":{"type":"rect","ratio":1.433},
 "timeout":10},
-{"key":"斗鱼js","name":"斗鱼┃直播","type":3,"api":"https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js","ext":"https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/斗鱼直播.js","style":{"type":"rect","ratio":1.755},
+{"key":"斗鱼js","name":"🐟斗鱼┃直播","type":3,"api":"https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js","ext":"https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/斗鱼直播.js","style":{"type":"rect","ratio":1.755},
+"timeout":10,"playerType":"2","searchable":0,"quickSearch":0,"changeable":0},
 "timeout":15,"playerType":"2","searchable":0,"quickSearch":0,"changeable":0},
 {"key":"糯米","name":"糯米┃秒播","type":3,"api":"csp_NmysGuard","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":10},
 {"key":"热播","name":"热播┃App","type":3,"api":"csp_TianTianGuard","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"ext":{"site":0},
@@ -62,6 +63,7 @@
 "searchable":0,"quickSearch":0,"changeable":0,"ext":{"json":"https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/43ZKwmf_.bmp"}},
 {"key":"高中教育","name":"高中┃课堂","type":3,"api":"csp_BiliGuard","style":{"type":"rect","ratio":1.597},
 "searchable":0,"quickSearch":0,"changeable":0,"ext":{"json":"https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/mf6984kQ.bmp"}},
+{"key":"Aid","name":"急救┃教学","type":3,"api":"csp_FirstAidGuard","searchable":0,"quickSearch":0,"changeable":0,"style":{"type":"rect","ratio":3.8}},
 {"key":"本地播放","name":"本地┃播放","type":3,"api":"csp_LocalGuard","searchable":0,"changeable":0,"indexs":0,"style":{"type":"list"},
 "timeout":5}
 ],
@@ -91,7 +93,7 @@
 "lives": [
 {"name":"移动","url":"http://i.iomo.run.place/sn.txt","ua":"Mozilla/5.0"},
 {"name":"联通","url":"http://i.iomo.run.place/un.txt","ua":"Mozilla/5.0"},
-{"name":"电信","url":"https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt","ua":"okhttp/3.15"}
+{"name":"电信","url":"https://git.yylx.win/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt","ua":"okhttp/3.15"}
 ],
 "ijk":[{"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},
 {"category":4,"name":"overlay-format","value":"842225234"},
