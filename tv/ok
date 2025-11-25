@@ -1,5 +1,5 @@
 {
-"spider":"https://git.yylx.win/https://raw.githubusercontent.com/Airoway/live/refs/heads/main/tv/v.jar",
+"spider":"https://ghfast.top/https://raw.githubusercontent.com/Airoway/live/refs/heads/main/tv/v.jar",
 "logo":"http://v.iomo.run.place/tv/logo.png",
 "wallpaper":"https://深色壁纸.xxooo.cf",
 "sites":[
@@ -93,7 +93,7 @@
 "lives": [
 {"name":"移动","url":"http://i.iomo.run.place/sn.txt","ua":"Mozilla/5.0"},
 {"name":"联通","url":"http://i.iomo.run.place/un.txt","ua":"Mozilla/5.0"},
-{"name":"电信","url":"https://git.yylx.win/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt","ua":"okhttp/3.15"}
+{"name":"电信","url":"https://ghfast.top/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt","ua":"okhttp/3.15"}
 ],
 "ijk":[{"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},
 {"category":4,"name":"overlay-format","value":"842225234"},
