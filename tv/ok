@@ -93,7 +93,7 @@
 "lives": [
 {"name":"移动","url":"http://i.iomo.run.place/sn.txt","ua":"Mozilla/5.0"},
 {"name":"联通","url":"http://i.iomo.run.place/un.txt","ua":"Mozilla/5.0"},
-{"name":"电信","url":"https://ghfast.top/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt","ua":"okhttp/3.15"}
+{"name":"电信","url":"https://live.ottiptv.cc/iptv.m3u?userid=5554959808&sign=dafa9f27a4175ce1cc5df7f76c308e80ac4f254d11858fb3ff8d889d9477a27f6c8cb089655ee1ba6ccb64d4c853dd5a047832d7c00eeab5df1b43a3c34f3132df84b256f6e8bb&auth_token=72035bf70d8bcd08c6bc65199e03fc4d","ua":"okHttp/Mod-1.4.0.0"}
 ],
 "ijk":[{"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},
 {"category":4,"name":"overlay-format","value":"842225234"},
