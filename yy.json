@@ -2,6 +2,5 @@
    "plugins": [
    {"url": "http://music.haitangw.net/cqapi/qq.js"},
    {"url": "https://v.iomo.run.place/js/wy.js"},
-   {"url": "http://music.haitangw.net/cqapi/kw.js"},
-   {"url": "http://cdn.teyonds.com/music/mg"}
+   {"url": "http://music.haitangw.net/cqapi/kw.js"}
    ]}
