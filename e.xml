@@ -1,5 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv info-name="by spark " info-url="https://epg.112114.xyz">
+	<channel id="1905环球经典">
+		<display-name lang="zh">1905环球经典</display-name>
+	</channel>
+	<programme channel="1905环球经典" start="20251223000000 +0800" stop="20251223010100 +0800">
+		<title lang="zh">真假公主</title>
+	</programme>
+	<programme channel="1905环球经典" start="20251223010100 +0800" stop="20251223025500 +0800">
+		<title lang="zh">乞力马扎罗的雪</title>
+	</programme>
+	<programme channel="1905环球经典" start="20251223025500 +0800" stop="20251223055100 +0800">
+		<title lang="zh">教父</title>
+	</programme>
+	<programme channel="1905环球经典" start="20251223055100 +0800" stop="20251223074700 +0800">
+		<title lang="zh">傲慢与偏见</title>
+	</programme>
+	<programme channel="1905环球经典" start="20251223074700 +0800" stop="20251223093600 +0800">
+		<title lang="zh">红玫瑰白玫瑰</title>
+	</programme>
+	<programme channel="1905环球经典" start="20251223093600 +0800" stop="20251223112200 +0800">
+		<title lang="zh">简爱</title>
+	</programme>
+	<programme channel="1905环球经典" start="20251223112200 +0800" stop="20251223140500 +0800">
+		<title lang="zh">环游世界八十天</title>
+	</programme>
+	<programme channel="1905环球经典" start="20251223140500 +0800" stop="20251223155000 +0800">
+		<title lang="zh">红与黑（上部）</title>
+	</programme>
+	<programme channel="1905环球经典" start="20251223155000 +0800" stop="20251223171700 +0800">
+		<title lang="zh">红与黑（下部）</title>
+	</programme>
+	<programme channel="1905环球经典" start="20251223171700 +0800" stop="20251223195100 +0800">
+		<title lang="zh">洛丽塔</title>
+	</programme>
+	<programme channel="1905环球经典" start="20251223195100 +0800" stop="20251223214600 +0800">
+		<title lang="zh">小妇人</title>
+	</programme>
+	<programme channel="1905环球经典" start="20251223214600 +0800" stop="20251223233200 +0800">
+		<title lang="zh">毕业生</title>
+	</programme>
+	<programme channel="1905环球经典" start="20251223233200 +0800" stop="20251223235900 +0800">
+		<title lang="zh">杀死一只知更鸟</title>
+	</programme>
+	<channel id="BTV体育">
+		<display-name lang="zh">BTV体育</display-name>
+	</channel>
+	<programme channel="BTV体育" start="20251223002500 +0800" stop="20251223005500 +0800">
+		<title lang="zh">天天体育（2025-12-23）</title>
+	</programme>
+	<programme channel="BTV体育" start="20251223005500 +0800" stop="20251223013500 +0800">
+		<title lang="zh">BRTV赛场：2025-2026德甲集锦（13）</title>
+	</programme>
+	<programme channel="BTV体育" start="20251223013500 +0800" stop="20251223023100 +0800">
+		<title lang="zh">欢乐二打一（2025-12-23）</title>
+	</programme>
+	<programme channel="BTV体育" start="20251223023100 +0800" stop="20251223041100 +0800">
+		<title lang="zh">BRTV赛场：2025-2026赛季德甲联赛（沃尔夫斯堡-弗莱堡）</title>
+	</programme>
+	<programme channel="BTV体育" start="20251223041100 +0800" stop="20251223055100 +0800">
+		<title lang="zh">BRTV赛场：全运赛事精选（跳水男子个人全能）</title>
+	</programme>
+	<programme channel="BTV体育" start="20251223055100 +0800" stop="20251223060000 +0800">
+		<title lang="zh">2024-2025德甲进球集锦（2）</title>
+	</programme>
+	<programme channel="BTV体育" start="20251223060500 +0800" stop="20251223074500 +0800">
+		<title lang="zh">BRTV赛场：2025-2026赛季排超联赛第一阶段(北京北冰洋-山东)</title>
+	</programme>
+	<programme channel="BTV体育" start="20251223075000 +0800" stop="20251223082000 +0800">
+		<title lang="zh">天天体育（2025-12-22）</title>
+	</programme>
+	<programme channel="BTV体育" start="20251223082000 +0800" stop="20251223091600 +0800">
+		<title lang="zh">欢乐二打一（2025-12-22）</title>
+	</programme>
+	<programme channel="BTV体育" start="20251223091600 +0800" stop="20251223100100 +0800">
+		<title lang="zh">乐活北京275（12-22）</title>
+	</programme>
+	<programme channel="BTV体育" start="20251223100500 +0800" stop="20251223103500 +0800">
+		<title lang="zh">BRTV赛场：2025中超联赛第29轮集锦</title>
+	</programme>
+	<programme channel="BTV体育" start="20251223103500 +0800" stop="20251223110500 +0800">
+		<title lang="zh">BRTV赛场：2025中超联赛第30轮集锦</title>
+	</programme>
+	<programme channel="BTV体育" start="20251223110900 +0800" stop="20251223113900 +0800">
+		<title lang="zh">天天体育（2025-12-22）</title>
+	</programme>
+	<programme channel="BTV体育" start="20251223113900 +0800" stop="20251223123500 +0800">
+		<title lang="zh">欢乐二打一（2025-12-22）</title>
+	</programme>
+	<programme channel="BTV体育" start="20251223123500 +0800" stop="20251223132000 +0800">
+		<title lang="zh">乐活北京276（12-23）</title>
+	</programme>
+	<programme channel="BTV体育" start="20251223132500 +0800" stop="20251223150500 +0800">
+		<title lang="zh">BRTV赛场：2025-2026赛季排超联赛第一阶段(北京北汽-浙江)</title>
+	</programme>
+	<programme channel="BTV体育" start="20251223151000 +0800" stop="20251223151500 +0800">
+		<title lang="zh">2025赛季北京国安进球集锦（4）</title>
+	</programme>
+	<programme channel="BTV体育" start="20251223152000 +0800" stop="20251223170000 +0800">
+		<title lang="zh">BRTV赛场：2025-2026赛季CBA常规赛（辽宁沈阳三生-北京控股）</title>
+	</programme>
+	<programme channel="BTV体育" start="20251223170700 +0800" stop="20251223175200 +0800">
+		<title lang="zh">乐活北京276（12-23）</title>
+	</programme>
+	<programme channel="BTV体育" start="20251223175200 +0800" stop="20251223184800 +0800">
+		<title lang="zh">欢乐二打一（2025-12-23）</title>
+	</programme>
+	<programme channel="BTV体育" start="20251223185400 +0800" stop="20251223192400 +0800">
+		<title lang="zh">直播：天天体育</title>
+	</programme>
+	<programme channel="BTV体育" start="20251223192400 +0800" stop="20251223193900 +0800">
+		<title lang="zh">康复讲堂（2025-12）</title>
+	</programme>
+	<programme channel="BTV体育" start="20251223194200 +0800" stop="20251223212200 +0800">
+		<title lang="zh">BRTV赛场：2025-2026赛季CBA常规赛（四川锦城-北京首钢）</title>
+	</programme>
+	<programme channel="BTV体育" start="20251223213000 +0800" stop="20251223214000 +0800">
+		<title lang="zh">2025赛季北京国安进球集锦（4）</title>
+	</programme>
+	<programme channel="BTV体育" start="20251223214000 +0800" stop="20251223223600 +0800">
+		<title lang="zh">欢乐二打一（2025-12-23）</title>
+	</programme>
 	<channel id="BTV影视">
 		<display-name lang="zh">BTV影视</display-name>
 	</channel>
