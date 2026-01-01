@@ -94,7 +94,7 @@
 "lives":[
 {"name":"移动","url":"http://i.iomo.run.place/sn.txt","ua":"Mozilla/5.0"},
 {"name":"联通","url":"http://i.iomo.run.place/un.txt","ua":"Mozilla/5.0"},
-{"name":"电信","url":"https://live.ottiptv.cc/iptv.m3u?userid=5554959808&sign=dafa9f27a4175ce1cc5df7f76c308e80ac4f254d11858fb3ff8d889d9477a27f6c8cb089655ee1ba6ccb64d4c853dd5a047832d7c00eeab5df1b43a3c34f3132df84b256f6e8bb&auth_token=72035bf70d8bcd08c6bc65199e03fc4d","ua":"okHttp/Mod-1.4.0.0"}
+{"name":"电信","url":"https://live.ottiptv.cc/iptv.m3u?userid=5554959808&sign=d433cc18b3206e6e6735f89de1fa1e95abca5f43bd0786247fb765d44a60c4897ea15572d19317396b292c90755b2a66fdba7334280a27420b2d09403b66eee626d8a3b3fb5e6a&auth_token=72035bf70d8bcd08c6bc65199e03fc4d","ua":"okHttp/Mod-1.5.0.0"}
 ],
 "ijk":[{"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},
 {"category":4,"name":"overlay-format","value":"842225234"},
