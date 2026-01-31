@@ -123,10 +123,10 @@
 "lives":[
 {"name":"移动","url":"http://i.iomo.run.place/sn.txt","ua":"Mozilla/5.0"},
 {"name":"联通","url":"http://i.iomo.run.place/un.txt","ua":"Mozilla/5.0"},
-{"name":"电信","url":"https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt","ua":"okHttp/Mod-1.5.0.0"}
+{"name":"电信","url":"http://127.0.0.1:9978/proxy?do=live&url=https%3A%2F%2Fbc.188766.xyz%2F%3Fip%3D%26mishitong%3Dtrue%26mima%3Dbingcha1130%26json%3Dtrue","playerType":2,"timeout":10,"ua":"bingcha/1.1(mianfeifenxiang)"},
 ],
 "ijk":[{"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},
-{"category":4,"name":"overlay-format","value":"842225234"},
+{"category":4,"name":"overlay-format","value":"/842225234"},
 {"category":4,"name":"framedrop","value":"1"},
 {"category":4,"name":"soundtouch","value":"1"},
 {"category":4,"name":"start-on-prepared","value":"1"},
